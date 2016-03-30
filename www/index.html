@@ -1,0 +1,2570 @@
+<!DOCTYPE html>
+<!--
+ Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+ 
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations@
+ under the License.
+ -->
+<html>
+    <head>
+		<meta property="og:locale" content="en_US" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" href="font.css">
+			
+		<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.2.min.css" />
+		<link rel="stylesheet" href="themes/MyCollection.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="css/spinner.css" />
+		<link rel="stylesheet" href="css/app-reset.css" />
+		<link rel="stylesheet" href="css/app-ios.css" />
+		<link rel="stylesheet" type="text/css" href="css/zocial.css" />
+		<link rel="stylesheet" href="css/jquery-ui.css">
+		
+		<script src="jquery-1.10.2.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/jquery.mobile-1.4.2.min.js"></script>
+		<script src="jquery.countdown.js"></script>
+		<script src="jquery.raty.js"></script>
+		
+		<script type="text/javascript" src="js/iscroll.js"></script>
+		
+		
+        <title>Volantini</title>
+		
+		<style type="text/css">
+
+
+		html {
+			-ms-touch-action: none;
+		}
+		
+		body,ul,li {
+			padding: 0;
+			margin: 0;
+			border: 0;
+		}
+		
+		body {
+			font-size: 12px;
+			font-family: ubuntu, helvetica, arial;
+			overflow: hidden; /* this is important to prevent the whole page to bounce */
+		}
+		
+		#header {
+			position: absolute;
+			z-index: 2;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 45px;
+			line-height: 45px;
+			padding: 0;
+			color: #fff;
+			font-size: 20px;
+			text-align: center;
+			font-weight: bold;
+		}
+		
+		#footer {
+			position: absolute;
+			z-index: 2;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			padding: 0;
+			
+		}
+		
+		#wrapper {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		
+		#wrapper2 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper3 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper4 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper5 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper6 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper7 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper8 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper9 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper10 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper11 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper12 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper0 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#wrapper00 {
+			position: absolute;
+			z-index: 1;
+			top: 60px;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			overflow: hidden;
+		}
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+			-webkit-transform: translateZ(0);
+			-moz-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+			-o-transform: translateZ(0);
+			transform: translateZ(0);
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			-webkit-text-size-adjust: none;
+			-moz-text-size-adjust: none;
+			-ms-text-size-adjust: none;
+			-o-text-size-adjust: none;
+			text-size-adjust: none;
+		}
+		
+		#scroller ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			text-align: left;
+		}
+		
+		#scroller li {
+			padding: 0 10px;
+			height: 40px;
+			line-height: 40px;
+			border-bottom: 1px solid #fff;
+			border-top: 1px solid #fff;
+			background-color: #fff;
+			font-size: 14px;
+		}
+		
+		.ui-content {
+			padding: 0 !important;
+		}
+		
+		.ui-listview {
+			margin: 0 !important;
+		}
+		
+			</style>
+		
+		<style>
+			.ui-icon-taifun:after {
+				background-image: url("img/CartW.png");
+				background-size: 18px 18px;
+				
+			}
+			.ui-icon-userhome:after {
+			background-image: url("img/UserW.png");
+			background-size: 18px 18px;
+			
+			}
+			.ui-icon-pinhome:after {
+			background-image: url("img/Altro.png");
+			background-size: 18px 18px;
+			
+			}
+			.ui-icon-ristohome:after {
+			background-image: url("img/RistoW.png");
+			background-size: 18px 18px;
+			
+			}
+			.ui-icon-homehome:after {
+			background-image: url("img/Best.png");
+			background-size: 18px 18px;
+			
+			}
+			.ui-icon-indietro:after {
+			background-image: url("img/back.png");
+			background-size: 18px 18px;
+			
+			}
+		
+			.ui-mobile, .ui-mobile .ui-page, .ui-mobile [data-role="page"],
+			.ui-mobile [data-role="dialog"], .ui-page, .ui-mobile .ui-page-active {
+				overflow: hidden;
+				-webkit-backface-visibility: hidden;
+			}
+		
+			.div1 {
+				background-color: #488354;
+				height: 52px;
+				border: none;
+				
+			}
+		
+			.div2 {
+				background-color: #fff;
+			}
+		
+		.div3 {
+			background-color: #fff;
+			border: none;
+			margin:0 auto;
+			height: 10px;
+
+		}
+		.div4 {
+			background: rgb(125,126,125); /* Old browsers */
+			background: -moz-linear-gradient(45deg, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(45deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(45deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(45deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+			background: linear-gradient(45deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		}
+		.trBorderCell
+		{
+			height: 30px;
+			width: 320px;
+			background: rgba(0,0,0,.6);
+			
+		}
+		
+		.margine
+		{
+			margin:0 auto;
+		}
+		
+		.arrotondamento
+		{
+			border-radius: 8px;
+			-moz-border-radius: 8px; /* firefox */
+			-webkit-border-radius: 8px; /* safari, chrome */
+		}
+		.custom-btn00 {
+			width: 270px;
+			background-color: #4885ef;
+		}
+		
+		.custom-btn {
+			width: 90%;
+			background-color: #4885ef;
+		}
+		
+		.custom-btn22 {
+			width: 280px;
+		}
+		
+		.custom-btn2 {
+			width: 150px;
+			background-color: #4885ef;
+		}
+		
+		.custom-btn3 {
+			width: 100px;
+			height:3s0px;
+			background-color: #4885ef;
+		}
+		.custom-btn4 {
+			width: 100px;
+			height:70px;
+			background-color: #4885ef;
+		}
+		
+		.custom-btn5 {
+			width: 30px;
+			background-color: #4885ef;
+		}
+		
+		.big { height: 80px;}
+		.big .ui-btn-inner { padding-top:25px; }
+		
+		table.tablesorter {
+			font-family:arial;
+			background-color: #f0f0f0;
+			margin:10px 0pt 15px;
+			font-size: 8pt;
+			width: 95%;
+			text-align: left;
+			border: 0px solid #FFF;
+			
+			border-radius: 5px;
+			-moz-border-radius: 5px; /* firefox */
+			-webkit-border-radius: 5px; /* safari, chrome */
+			
+		}
+		table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+			background-color: #B40431;
+			border: 1px solid #FFF;
+			font-size: 8pt;
+			padding: 4px;
+			width: 55%;
+			
+			border-radius: 5px;
+			-moz-border-radius: 5px; /* firefox */
+			-webkit-border-radius: 5px; /* safari, chrome */
+			
+		}
+		table.tablesorter thead tr .header {
+			background-image: url(bg.gif);
+			background-repeat: no-repeat;
+			background-position: center right;
+			cursor: pointer;
+		}
+		table.tablesorter tbody td {
+			color: #B40431;
+			padding: 4px;
+			background-color: #FFF;
+			vertical-align: top;
+			
+		}
+		table.tablesorter tbody tr.odd td {
+			background-color:#000000;
+		}
+		table.tablesorter thead tr .headerSortUp {
+			background-image: url(asc.gif);
+		}
+		table.tablesorter thead tr .headerSortDown {
+			background-image: url(desc.gif);
+		}
+		table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+			background-color: #B40431;
+			
+		}
+		
+		.tabella {
+			background-color: #fff;
+			margin:10px 0pt 15px;
+			width: 260px;
+			text-align: left;
+			border: 0px solid #000;
+			
+			border-radius: 5px;
+			-moz-border-radius: 5px; /* firefox */
+			-webkit-border-radius: 5px; /* safari, chrome */
+			
+		}
+		
+		.tabella11{
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			background:#2E2E2E;
+			border: #636363 1px solid;
+			border-color: #636363;
+			height: 30px;
+			border-spacing: 0px;
+			border-style: outset;
+		}
+		
+		.tabella111{
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			background:#2E2E2E;
+			border: #636363 1px solid;
+			border-color: #636363;
+			height: 15px;
+			border-spacing: 0px;
+			border-style: outset;
+		}
+		
+		.tabella12{
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			background:#488354;
+			border: #636363 1px solid;
+			border-color: #636363;
+			height: 30px;
+			border-spacing: 0px;
+			border-style: outset;
+		}
+		
+		.home {
+			background-color: #9d3434;
+			background-image: url(img/minusW.png);
+			background-size: 26px 26px;
+			background-repeat: no-repeat;
+			background-position:center;
+			
+			height:28px;
+			width:28px;
+			border-radius:999em;
+			-moz-border-radius:999em;
+			-webkit-border-radius:999em;
+			-o-border-radius: 999em;
+			
+			-webkit-box-shadow: 0px 0px 0.5px 1px #FFF;
+			-moz-box-shadow: 0px 0px 0.5px 1px #FFF;
+			box-shadow: 0px 0px 0.5px 1px #FFF;
+		}
+		
+		.home1 {
+			background-color: #9d3434;
+			background-image: url(img/plusW.png);
+			background-size: 26px 26px;
+			background-repeat: no-repeat;
+			background-position:center;
+			
+			height:28px;
+			width:28px;
+			border-radius:999em;
+			-moz-border-radius:999em;
+			-webkit-border-radius:999em;
+			-o-border-radius: 999em;
+			
+			-webkit-box-shadow: 0px 0px 0.5px 1px #FFF;
+			-moz-box-shadow: 0px 0px 0.5px 1px #FFF;
+			box-shadow: 0px 0px 0.5px 1px #FFF;
+		}
+		
+		.home:active {
+			background-color: #000000;
+			border-radius:999em;
+			-moz-border-radius:999em;
+			-webkit-border-radius:999em;
+			-o-border-radius: 999em;
+			
+			-webkit-box-shadow: 0px 0px 0.5px 1px #000;
+			-moz-box-shadow: 0px 0px 0.5px 1px #000;
+			box-shadow: 0px 0px 0.5px 1px #000;
+		}
+		
+		.home1:active {
+			background-color:#000000;
+			border-radius:999em;
+			-moz-border-radius:999em;
+			-webkit-border-radius:999em;
+			-o-border-radius: 999em;
+			
+			-webkit-box-shadow: 0px 0px 0.5px 1px #000;
+			-moz-box-shadow: 0px 0px 0.5px 1px #000;
+			box-shadow: 0px 0px 0.5px 1px #000;
+		}
+
+.circolare22 {
+	width: 30px;
+	height: 30px;
+	
+	border-radius:99px;
+	-moz-border-radius:99px;
+	-webkit-border-radius:99px;
+	-o-border-radius: 99px;
+	
+	-webkit-box-shadow: 0px 0px 0.5px 0.5px #000;
+	-moz-box-shadow: 0px 0px 0.5px 0.5px #000;
+	box-shadow: 0px 0px 0.5px 0.5px #000;
+}
+		
+		.circolare1 {
+			width: 270px;
+			height: 270px;
+			
+			border-radius:5px;
+			-moz-border-radius:5px;
+			-webkit-border-radius:5px;
+			-o-border-radius: 5px;
+			
+			-webkit-box-shadow: 0px 0px 0.5px 0.5px #000;
+			-moz-box-shadow: 0px 0px 0.5px 0.5px #000;
+			box-shadow: 0px 0px 0.5px 0.5px #000;
+		}
+		
+		.circolare {
+			width: 90px;
+			height: 90px;
+			
+			border-radius:5px;
+			-moz-border-radius:5px;
+			-webkit-border-radius:5px;
+			-o-border-radius: 5px;
+			
+			-webkit-box-shadow: 0px 0px 0.5px 0.5px #000;
+			-moz-box-shadow: 0px 0px 0.5px 0.5px #000;
+			box-shadow: 0px 0px 0.5px 0.5px #000;
+		}
+		
+
+		
+a {text-decoration:none;}
+
+.styled-select select {
+	background: transparent;
+	width: 268px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	-webkit-appearance: none;
+}
+		
+		.banner {
+			left:110px;
+			bottom:20px;
+			position: fixed;
+			
+			margin-left: auto ;
+			margin-right: auto ;
+			
+		}
+		
+		hr.style-six {
+			border: 0;
+			height: 0;
+			border-top: 1px solid rgba(0, 0, 0, 0.1);
+			border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+		}
+		
+		
+		.conn {
+			font-size: 9pt;
+			color:#FFF;
+			background-color: #FF8000;
+		}
+
+.badge1 {
+	position:relative;
+}
+		.badge1[data-badge]:after {
+			content:attr(data-badge);
+			position:absolute;
+			top:3px;
+			right:-1px;
+			font-size:.7em;
+			background:green;
+			color:white;
+			width:18px;height:18px;
+			text-align:center;
+			line-height:20px;
+			border-radius:50%;
+			box-shadow:0 0 1px #333;
+			border: 1px solid #fff;
+		}
+		.badge2 {
+			
+		}
+		.badge2[data-badge]:after {
+			
+		}
+		.badge3 {
+			position:relative;
+		}
+		.badge3[data-badge]:after {
+			content:attr(data-badge);
+			position:absolute;
+			top:-30px;
+			right:-15px;
+			font-size:.7em;
+			background:green;
+			color:white;
+			width:20px;height:20px;
+			text-align:center;
+			line-height:20px;
+			border-radius:50%;
+			box-shadow:0 0 1px #333;
+			border: 1px solid #fff;
+		}
+		.visione {
+			color:#000;
+			font-size: 9pt;
+			text-decoration: none;
+			text-shadow:0 0 0;
+		}
+		
+		.someClass b {
+			font-weight: normal;
+			text-decoration: none;
+			text-shadow:0 0 0;
+		}
+		
+		.someClass {
+			font-weight: normal;
+			text-decoration: none;
+			text-shadow:0 0 0;
+		}
+		.someClass2 {
+			font-weight: normal;
+			text-decoration: none;
+			text-shadow:0 0 0;
+			font-size: 18px;
+		}
+		
+		.btn {
+			background: #9f1e24;
+			background-image: -webkit-linear-gradient(top, #9f1e24, ##9f1e24);
+			background-image: -moz-linear-gradient(top, #9f1e24, ##9f1e24);
+			background-image: -ms-linear-gradient(top, #9f1e24, ##9f1e24);
+			background-image: -o-linear-gradient(top, #9f1e24, ##9f1e24);
+			background-image: linear-gradient(to bottom, #9f1e24, ##9f1e24);
+			-webkit-border-radius: 21;
+			-moz-border-radius: 21;
+			border-radius: 21px;
+			font-family: Arial;
+			color: #ffffff;
+			font-size: 24px;
+			padding: 10px 20px 10px 20px;
+			text-decoration: none;
+		}
+		
+		.btn:hover {
+			background: #000000;
+			background-image: -webkit-linear-gradient(top, #000000, #9f1e24);
+			background-image: -moz-linear-gradient(top, #000000, #9f1e24);
+			background-image: -ms-linear-gradient(top, #000000, #9f1e24);
+			background-image: -o-linear-gradient(top, #000000, #9f1e24);
+			background-image: linear-gradient(to bottom, #000000, #9f1e24);
+			text-decoration: none;
+		}
+		
+		.loghetto {
+			
+			border-radius:5px;
+			-moz-border-radius:5px;
+			-webkit-border-radius:5px;
+			-o-border-radius: 5px;
+			
+		}
+		
+		.div5 {
+			position: fixed;
+			z-index: 2;
+			bottom: 0;
+			right: 0;
+			width: 60%;
+			padding: 0;
+			color: #000;
+			
+			text-align: center;
+			
+		}
+		
+		.ui-overlay-a{
+			background: #fff;
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			/*background-position:center; */
+			background-position: right bottom; /*Positioning*/
+		}
+		.ui-overlay-b{
+			background: #fff;
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			/*background-position:center; */
+			background-position: right bottom; /*Positioning*/
+		}
+		.ui-overlay-c{
+			background: #fff;
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			/*background-position:center; */
+			background-position: right bottom; /*Positioning*/
+		}
+		.ui-overlay-d{
+			background: #fff;
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			/*background-position:center; */
+			background-position: right bottom; /*Positioning*/
+		}
+		.ui-overlay-e{
+			background: #fff;
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			/*background-position:center; */
+			background-position: right bottom; /*Positioning*/
+		}
+		
+		@font-face {
+			font-family: 'FUTURAB';
+			src: url('./FUTURAB.TTF');
+			src: local('./FUTURAB'), url('./FUTURAB.TTF') format('truetype');
+		}
+		
+		.carattere {
+			font-family: 'FUTURAB' !important;
+			
+			font-weight: normal;
+			text-decoration: none;
+			text-shadow:0 0 0;
+			font-size: 18px;
+		}
+		
+		
+		.Large {
+			font-size: 20pt;
+			width: 260px;
+		}
+		
+		.LargeS {
+			font-size: 10pt;
+			width: 100%;
+		}
+		
+		.scrivo00 {
+			display: block;
+			width: 280px;
+			margin: 0px;
+			border: solid 0.5px #dcdcdc;
+			font-family: sans-serif;
+			font-size: 20px;
+			appearance: none;
+			box-shadow: none;
+			border-radius: none;
+			
+			-webkit-appearance: none;
+			-webkit-border-radius:0px;
+			@include border-radius(0);
+		}
+		
+		.scrivo {
+			display: block;
+			width: 90%;
+			margin: 0px;
+			border: solid 0.5px #dcdcdc;
+			font-family: sans-serif;
+			font-size: 20px;
+			appearance: none;
+			box-shadow: none;
+			border-radius: none;
+			
+			-webkit-appearance: none;
+			-webkit-border-radius:0px;
+			@include border-radius(0);
+		}
+		.scrivo1 {
+			display: block;
+			width: 90%;
+			margin: 0px;
+			border: 0px;
+			border: solid 0.5px #dcdcdc;
+			font-family: sans-serif;
+			font-size: 20px;
+			background: #f0f0f0;
+			appearance: none;
+			box-shadow: none;
+			border-radius: none;
+			
+			-webkit-appearance: none;
+			-webkit-border-radius:0px;
+			@include border-radius(0);
+		}
+		
+		
+		.panel-wrapper {
+			height: 760px;
+			right: 0;
+		}
+		
+		.panel-wrapper div {
+			border-top: 1px solid #fff;
+			border-bottom: 1px solid #fff;
+		}
+		
+		html {
+			height  : 100%;
+			overflow: hidden;
+		}
+		body {
+			height  : 100%;
+			overflow: auto;
+		}
+		
+		.visioneN {
+			text-decoration: none;
+			text-shadow:0 0 0;
+			color: #FFF;
+		}
+		.arancio {
+			font-size: 10px;
+			text-decoration: none;
+			text-shadow:0 0 0;
+			color: orange;
+		}
+		</style>
+		
+		
+    </head>
+    <body>
+		
+		<div id="page" data-role="page" class="div2" data-iscroll="enable">
+			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+				<table align="center" width="100%" valign="center" border="0"><tr><td></td></tr><tr><td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td></tr></table>
+			</div>
+			<div class="spinner" id="spinner"></div>
+			
+			<div id="wrapper">
+				<div id="scroller">
+					<table id="tbl0" width="100%" heigth="90px" align="center" style="display:none;"><tr><td align="center"></td></tr></table>
+					<center><br><img id="logo1" src="img/Verde.png" width="180" class="circolare"><br><br>
+					 <!--<form name="formia" action="entra.asp" method="post">
+						 <input type="text" data-role="none" name="Nome" id="Nome" value="" placeholder="Nome Collezione" class="scrivo">
+							 <br><br>
+					  
+							 <select id="mySelect" name="mySelect" data-theme="b" class="Large">
+								 <option value="01" selected>Modelli</option>
+								 <option value="Monete">Monete</option>
+								 <option value="Orologi">Orologi</option>
+								 <option value="Quadri">Quadri</option>
+								 <option value="Altro">Personalizza</option>
+							 </select>
+					 </td></tr>-->
+							<table width="95%" align="center"><tr><td align="center">
+							 <tr><td align="center"></td></tr>
+							 <tr>
+								 <td align="center">
+								  <a href="#page00" onclick='carica00()' id="#" data-role="button" class="custom-btn00" data-theme="c" data-transition="slide"><font color="green" size="5">Crea Nuova</font></a>
+								 </td>
+							 </tr>
+							 <tr><td align="center">o</td></tr>
+							 <tr><td align="center">
+								 <a href="#page0" onclick='javascript:listacollection()' id="#" data-role="button" class="custom-btn00" data-theme="c" data-transition="slide"><font color="green" size="5">Scegli Collezione</font></a>
+							 </td>
+							 </tr>
+							 <tr><td align="center"><br></td></tr>
+							 <tr><td align="center"><br></td></tr>
+							 <tr><td align="center"><br><a id="imgmail" href="javascript:infomail()"><img id="logostampa2" src="img/mail.png" width="40px" ></a></td></tr>
+							 <tr><td align="center"><a href="javascript:infomail()"><font color='#000' size="3"> info</font></a></td></tr>
+							</table>
+					 <!--</form>
+					 <br><br><img src="img/Logo.png" width="300px" ><br>-->
+					
+					 <div id="noconn" align="center" style="display:none"><a href='javascript:riparti()' class='btn'><font color='#fff'>Connetti</font></a></div>
+						 
+				</div>
+			</div>
+		
+		
+			<div id="footer" data-position="fixed" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" style="display:none;position: absolute" data-transition="none">
+				<div data-role="navbar" class="nav" data-grid="b" data-theme="c" class="div1">
+					<ul>
+						<li><a href="#page5" onclick='javascript:menu()' id="programas" data-icon="homehome" ><font size="1">MyCollection</font></a></li>
+						<li><a href="index.html" id="menuR" data-icon="ristohome" rel="external"><font size="1">Home</font></a></li>
+						<!--<li><a href="cart.html" id="badde2" class="badge2" data-badge="1" data-icon="taifun" rel="external"><font size="1">Carrello</font></a></li>
+						<li><a id="btnprofilo7" href="rating.html" data-icon="userhome" rel="external"><font size="1">Recensioni</font></a></li> 
+						 href="#mypanelH"-->
+						<li><a href="javascript:logout()" data-icon="pinhome"><font size="1">Esci</font></a></li>
+					</ul>
+				</div>
+			</div>
+			
+
+		</div><!-- /page -->
+		
+		<div id="page00" data-role="page" class="div2" data-iscroll="enable">
+			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+				<table align="center" width="100%" valign="center" border="0"><tr><td></td></tr><tr><td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td></tr></table>
+			</div>
+			<div class="spinner" id="spinner"></div>
+			
+			<div id="wrapper00">
+				<div id="scroller">
+					<table id="tbl00" width="100%" heigth="90px" align="center" style="display:none;"><tr><td align="center"></td></tr></table>
+					<center><br><img id="logo00" src="img/Verde.png" width="180" class="circolare"><br><br>
+					 <form name="formia" action="entra.asp" method="post">
+							 <br><br>
+							 <table width="260px" align="center">
+								 <tr><td align="center"> <input type="text" data-role="none" name="Nome" id="Nome" value="" placeholder="Nome Collezione" class="scrivo00"></td></tr>
+								 <tr><td align="center">
+								 <select id="mySelect" name="mySelect" data-theme="b" class="Large">
+									 <option value="01" selected>Modelli</option>
+									 <option value="Monete">Monete</option>
+									 <option value="Orologi">Orologi</option>
+									 <option value="Quadri">Quadri</option>
+									 <option value="Altro">Personalizza</option>
+									 <!-- <option value="Personalizza">Personalizza</option>-->
+								 </select>
+							 </td></tr>
+							 <tr><td align="center"></td></tr>
+							 <tr><td align="center">
+								 <a href="javascript:vai();" id="#" data-role="button" class="custom-btn00" data-theme="c"><font color="green" size="5">Crea Nuova</font></a>
+							 </td>
+							 </tr>
+							 </table>
+							 </form>
+					 <!--<br><br><img src="img/Logo.png" width="300px" ><br>-->
+					 
+					 <div id="noconn" align="center" style="display:none"><a href='javascript:riparti()' class='btn'><font color='#fff'>Connetti</font></a></div>
+					 
+					 
+						</div>
+			</div>
+			
+			
+			<div id="footer" data-position="fixed" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" style="position: absolute" data-transition="none">
+				<div data-role="navbar" class="nav" data-grid="b" data-theme="c" class="div1">
+					<ul>
+						<li><a data-rel="back" data-transition="slidedown" data-icon="indietro" data-direction="reverse"><font size="1">Back</font></a></li>
+						<li><a href="#page5" onclick='javascript:menu()' id="programas" data-icon="homehome" ><font size="1">MyCollection</font></a></li>
+						<!--<li><a href="cart.html" id="badde2" class="badge2" data-badge="1" data-icon="taifun" rel="external"><font size="1">Carrello</font></a></li>
+						 <li><a id="btnprofilo7" href="rating.html" data-icon="userhome" rel="external"><font size="1">Recensioni</font></a></li>
+						 href="#mypanelH"-->
+						<li><a href="javascript:logout()" data-icon="pinhome"><font size="1">Esci</font></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div data-role="panel" id="mypanelH" data-position-fixed="true" data-position="right" data-display="overlay" width="100%" data-theme="b" style="overflow-y: scroll">
+				<div class="panel-wrapper">
+					
+					<!--<center>
+						<img src="img/Logo.png" width="120px"><br><br>
+					 </center>
+					 
+					 <table id="profile" border="0" width="90%">
+						<tr>
+					 <td><div id="listacollezione"></div></td>
+						</tr>
+						<tr>
+					 <td><div id="risultato2" align="left"></div></td>
+						</tr>
+					 </table>-->
+				</div>
+				
+			</div>
+			
+			
+		</div><!-- /page -->
+
+		
+		<div id="page0" data-role="page" class="div2" >
+			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+				<table align="center" width="100%" valign="center" border="0"><tr><td></td></tr><tr><td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td></tr></table>
+			</div>
+			<div class="spinner" id="spinner"></div>
+			
+			<div id="wrapper0">
+				<div id="scroller">
+					<br><center>
+						<center>
+							<img id="logo2" src="img/Verde.png" width="180" class="circolare"><br><br>
+								</center>
+						
+						<table id="profile" border="0" width="260px">
+							<tr>
+								<td><div id="listacollezione"></div></td>
+							</tr>
+							<tr>
+								<td><br></td>
+								
+							</tr>
+							<tr>
+								<td><div id="risultato22" align="center"></div></td>
+								
+							</tr>
+							</table>
+						
+							<table id="profile" border="0" class="tabella">
+							<tr>
+								<td align="center">
+									<div id="risultato2" align="left"></div>
+									<br>
+								</td>
+							</tr>
+						</table>
+							
+						<br><br><br><br>
+						
+				</div>
+			</div>
+			
+			
+			<div id="footer" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" >
+				<div data-role="navbar" class="nav" data-grid="b" data-theme="c" class="div1">
+					<ul>
+						<li><a data-rel="back" data-transition="slidedown" data-icon="indietro" data-direction="reverse"><font size="1">Back</font></a></li>
+						<li><a href="#page5" onclick='javascript:menu()' id="programas" data-icon="homehome" rel="external" ><font size="1">MyCollection</font></a></li>
+						<!--<li><a href="cart.html" id="badde2" class="badge2" data-badge="1" data-icon="taifun" rel="external"><font size="1">Carrello</font></a></li>
+						 <li><a id="btnprofilo7" href="rating.html" data-icon="userhome" rel="external"><font size="1">Recensioni</font></a></li>-->
+						<li><a href="javascript:logout()" data-icon="pinhome"><font size="1">Esci</font></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div><!-- /page -->
+		
+		
+		<div id="page2" data-role="page" data-iscroll="enable">
+			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+				<table align="center" width="100%" valign="center" border="0">
+					<tr>
+						<td>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="spinner" id="spinner"></div>
+			
+			<div id="wrapper2">
+				<div id="scroller">
+					<center><br>
+						 <form name="formia2" action="entra.asp" method="post">
+							 
+						<div id="NomeCollez"></div>
+						<input type="hidden" data-role="none" name="nome" id="nome" value="" placeholder="Nome" class="scrivo">
+						<br>
+						
+						 <table width="95%" align="center">
+							 <tr>
+								 <td width"47%" align="left">
+									 <input type="text" data-role="none" name="nomecollezione" id="nomecollezione" value="" placeholder="Nome" class="scrivo"><br>
+									 <input type="text" data-role="none" name="valore" id="valore" value="" placeholder="Valore" class="scrivo"><br>
+									 <input type="text" data-role="none" name="materiale" id="materiale" value="" placeholder="Materiale" class="scrivo"><br>
+									 <input type="text" data-role="none" name="descrizioneF" id="descrizioneF" value="" placeholder="Descrizione Fronte" class="scrivo">
+								 </td>
+								 <td width"6%"></td>
+								 <td width"47%" align="left">
+									 <table  align="center">
+										 <tr>
+											 <td align="center" width="50%">
+												 <img src="img/vol1.png" id="myImageVol" height="60px">
+											</td>
+											 <td align="center" width="50%">
+												 <img src="img/vol1.png" id="myImageVol2" height="60px">
+											</td>
+										 </tr>
+										 <tr>
+											 <td align="center" width="50%">
+												 <a id="radio" href="javascript:prendi()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+											 </td>
+											 <td align="center" width="50%">
+												 <a id="radio" href="javascript:prendi2()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+											 </td>
+										 </tr>
+										 <tr>
+											 <td align="center" colspan="2" width="100%">
+												 <img src="img/vol1.png" id="myImageVol3" height="60px">
+											</td>
+										 </tr>
+										 <tr>
+											 <td align="center" colspan="2" width="100%">
+												 <a id="radio" href="javascript:prendi3()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+											 </td>
+										 </tr>
+									 </table>
+
+								</td>
+						 
+							 </tr>
+						 </table>
+						 <br>
+						 
+
+					 <table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="descrizioneR" id="descrizioneR" value="" placeholder="Descrizione Retro" class="scrivo">
+							 </td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="descrizioneB" id="descrizioneB" value="" placeholder="Descrizione Bordo" class="scrivo">
+							 </td>
+						 </tr>
+					 </table>
+					 <table height="20"><tr><td></td></tr></table>
+					 <table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="rarita" id="rarita" value="" placeholder="Rarita" class="scrivo">
+							</td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="posseduta" id="posseduta" value="" placeholder="Posseduta" class="scrivo">
+							</td>
+						 </tr>
+					 </table>
+					 <table height="20"><tr><td></td></tr></table>
+					 <table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="dimensione" id="dimensione" value="" placeholder="Dimensione" class="scrivo">
+							</td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="statoconservazione" id="statoconservazione" value="" placeholder="Stato Conservazione" class="scrivo">
+							</td>
+						 </tr>
+					 </table>
+					 <table height="20"><tr><td></td></tr></table>
+					 <table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="valore2" id="valore2" value="" placeholder="Valore" class="scrivo">
+							</td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="anno" id="anno" value="" placeholder="Anno" class="scrivo">
+							</td>
+						 </tr>
+					 </table>
+					 <table height="20"><tr><td></td></tr></table>
+					 <table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="tiratura" id="tiratura" value="" placeholder="Tiratura" class="scrivo">
+							</td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 
+							</td>
+						 </tr>
+					 </table>
+					 <!--QUI-->
+					 
+					  <table height="60"><tr><td></td></tr></table>
+
+				</form>
+				</div>
+			</div>
+
+			
+			<div id="footer2" data-position="fixed" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" style="display:none;position: absolute" data-transition="none">
+				<table id="idfooter4" width="100%" align="center">
+					<tr>
+						<td width="25%" align="center">
+							<a href="#page0" onclick='javascript:listacollection()' class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back" data-rel="back" data-transition="slidedown" data-direction="reverse">Back</a>
+						</td>
+						<td width="25%" align="center">
+							<a href="#" onclick="javascript:salvamonete()"  rel="external" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-check">Save</a>
+						</td>
+						<td width="25%" align="center">
+							<a href="#" onclick="javascript:nuovamonete()"  rel="external" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-search">New</a>
+						</td>
+						<td width="25%" align="center">
+							<a href="#page0" onclick='javascript:listacollection2(2)'  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-grid" data-transition="slide">List</a>
+							<!--href="#mypanelA" onclick="javascript:listmonete()"-->
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div data-role="panel" id="mypanelA" data-position-fixed="true" data-position="right" data-display="overlay" width="100%" data-theme="b" style="overflow-y: scroll">
+				<div class="panel-wrapper">
+					
+				<center>
+					<img src="img/Logo.png" width="120px"><br><br><font color="#488354" size="3">Lista Monete</font>
+				</center>
+				<br>
+				
+					<table id="profile" border="0" width="90%">
+						<tr>
+							<td><div id="listamonete"></div></td>
+						</tr>
+						<tr>
+							<td><div id="risu"></div></td>
+						</tr>
+					</table>
+				</div>
+
+				
+			</div>
+			
+		</div><!-- /page -->
+		
+		<div id="page3" data-role="page" >
+			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+				<table align="center" width="100%" valign="center" border="0">
+					<tr>
+						<td>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="spinner" id="spinner"></div>
+			
+			<div id="wrapper3">
+				<div id="scroller">
+					<center><br>
+					<form name="formia3" action="entra.asp" method="post">
+					<div id="NomeCollez2"></div>
+					<input type="hidden" data-role="none" name="nome" id="nome" value="" placeholder="Nome" class="scrivo">
+					<br>
+					
+						<table width="95%" align="center">
+							<tr>
+								<td width"47%" align="left">
+									 <input type="text" data-role="none" name="nomecollezione" id="nomecollezione" value="" placeholder="Nome" class="scrivo"><br>
+									 <input type="text" data-role="none" name="marca" id="marca" value="" placeholder="Marca" class="scrivo"><br>
+									 <input type="text" data-role="none" name="meccanismo" id="meccanismo" value="" placeholder="Meccanismo" class="scrivo"><br>
+									 <input type="text" data-role="none" name="materialecassa" id="materialecassa" value="" placeholder="Materiale Cassa" class="scrivo">
+								</td>
+								<td width"6%"></td>
+								<td width"47%" align="left">
+									<table  align="center">
+										<tr>
+											<td align="center">
+												<img src="img/vol1.png" id="myImageVol4" height="60px">
+													</td>
+											<td align="center">
+												<img src="img/vol1.png" id="myImageVol5" height="60px">
+													</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<a id="radio" href="javascript:prendi4()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+											</td>
+											<td align="center">
+												<a id="radio" href="javascript:prendi5()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+											</td>
+										</tr>
+										<tr>
+											<td align="center" colspan="2">
+												<img src="img/vol1.png" id="myImageVol6" height="60px">
+													</td>
+										</tr>
+										<tr>
+											<td align="center" colspan="2">
+												<a id="radio" href="javascript:prendi6()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+											</td>
+										</tr>
+									</table>
+									
+								</td>
+								
+							</tr>
+						</table>
+						<br>
+						
+						
+					 <table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="materialevetro" id="materialevetro" value="" placeholder="Materiale Vetro" class="scrivo">
+									 </td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="materialecinturino" id="materialecinturino" value="" placeholder="Materiale Cinturino" class="scrivo">
+									 </td>
+						 </tr>
+					 </table>
+					 <table height="20"><tr><td></td></tr></table>
+					 <table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="prezzo" id="prezzo" value="" placeholder="Prezzo" class="scrivo">
+									 </td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="tiraturaqp" id="tiraturaqp" value="" placeholder="TiraturaQP" class="scrivo">
+							</td>
+						 </tr>
+					 </table>
+					<!--QUI-->
+
+						 
+					</form>
+					 <table height="60"><tr><td></td></tr></table>
+					</div>
+			</div>
+			
+			
+			
+			<div id="footer3" data-position="fixed" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" style="display:none;position: absolute" data-transition="none">
+				<table id="idfooter4" width="100%" align="center">
+					<tr>
+						<td width="25%" align="center">
+							<a href="#page0" onclick='javascript:listacollection()' data-rel="back" data-transition="slidedown" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back">Back</a>
+						</td>
+						<td width="25%" align="center">
+							<a href="#" onclick="javascript:salvaorologi()"  rel="external" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-check">Save</a>
+						</td>
+						<td width="25%" align="center">
+							<a href="#" onclick="javascript:nuovaorologi()"  rel="external" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-search">New</a>
+						</td>
+						<td width="25%" align="center">
+							<a href="#page0" onclick='javascript:listacollection2(1)'  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-grid" data-transition="slide">List</a>
+							
+							<!--href="#mypanelB" onclick="javascript:listorologi()"-->
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div data-role="panel" id="mypanelB" data-position-fixed="true" data-position="right" data-display="overlay" width="100%" data-theme="b" style="overflow-y: scroll">
+				<div class="panel-wrapper">
+					
+					<center>
+						<img src="img/Logo.png" width="120px"><br><br><font color="#488354" size="3">Lista Orologi</font>
+							</center>
+					<br>
+					
+					<table id="profile" border="0" width="90%">
+						<tr>
+							<td><div id="listaorologi"></div></td>
+						</tr>
+						<tr>
+							<td><div id="risu3"></div></td>
+						</tr>
+					</table>
+				</div>
+				
+				
+			</div>
+		</div><!-- /page -->
+		
+		<div id="page4" data-role="page" >
+			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+				<table align="center" width="100%" valign="center" border="0">
+					<tr>
+						<td>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="spinner" id="spinner"></div>
+			
+			<div id="wrapper4">
+				<div id="scroller">
+					<center><br>
+						<form name="formia4" action="entra.asp" method="post">
+						<div id="NomeCollez3"></div>
+						<input type="hidden" data-role="none" name="nome" id="nome" value="" placeholder="Nome" class="scrivo">
+						<br>
+						
+							<table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<input type="text" data-role="none" name="nomecollezione" id="nomecollezione" value="" placeholder="Nome" class="scrivo"><br>
+										<input type="text" data-role="none" name="titolo" id="titolo" value="" placeholder="Titolo" class="scrivo"><br>
+											
+											<select id="quadro" name="quadro" data-theme="b" class="LargeS">
+												<option value="Acquerello" selected>Acquerello</option>
+												<option value="Olio su tela">Olio su tela</option>
+												<option value="Olio su Tavola">Olio su Tavola</option>
+												<option value="Litografia">Litografia</option>
+												<option value="Disegno Matita">Disegno Matita</option>
+												<option value="Acquerello a Matita">Acquerello a Matita</option>
+												<option value="Incisione">Incisione</option>
+												<option value="Acqua Forte">Acqua Forte</option>
+												<option value="Altro">Altro</option>
+											</select><br>
+
+									</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<table  align="center">
+											<tr>
+												<td align="center">
+													<img src="img/vol1.png" id="myImageVol7" height="60px">
+												</td>
+												<td align="center">
+													<img src="img/vol1.png" id="myImageVol8" height="60px">
+												</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<a id="radio" href="javascript:prendi7()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+												</td>
+												<td align="center">
+													<a id="radio" href="javascript:prendi8()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+												</td>
+											</tr>
+											<tr>
+												<td align="center" colspan="2">
+													<img src="img/vol1.png" id="myImageVol9" height="60px">
+												</td>
+											</tr>
+											<tr>
+												<td align="center" colspan="2">
+													<a id="radio" href="javascript:prendi9()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+												</td>
+											</tr>
+										</table>
+										
+									</td>
+									
+								</tr>
+							</table>
+							<table height="30"><tr><td></td></tr></table>
+							<table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<input type="text" data-role="none" name="autore" id="autore" value="" placeholder="Autore" class="scrivo">
+									</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<input type="text" data-role="none" name="quotazione" id="quotazione" value="" placeholder="Quotazione" class="scrivo">
+									</td>
+								</tr>
+							</table>
+							<table height="20"><tr><td></td></tr></table>
+							
+							<table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<input type="text" data-role="none" name="provenienza" id="provenienza" value="" placeholder="Provenienza" class="scrivo">
+									</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<input type="text" data-role="none" name="iscrizione" id="iscrizione" value="" placeholder="Iscrizione" class="scrivo">
+									</td>
+								</tr>
+							</table>
+							<table height="20"><tr><td></td></tr></table>
+							<table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<input type="text" data-role="none" name="firme" id="firme" value="" placeholder="Firme" class="scrivo">
+									</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<input type="text" data-role="none" name="esposto" id="esposto" value="" placeholder="Esposto" class="scrivo">
+									</td>
+								</tr>
+							</table>
+							<table height="20"><tr><td></td></tr></table>
+							<table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<input type="text" data-role="none" name="dove" id="dove" value="" placeholder="Dove" class="scrivo">
+									</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<input type="text" data-role="none" name="linkautore" id="linkautore" value="" placeholder="LinkAutore" class="scrivo">
+									</td>
+								</tr>
+							</table>
+
+							<table height="20"><tr><td></td></tr></table>
+							<table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<input type="text" data-role="none" name="linkpubblicazine" id="linkpubblicazine" value="" placeholder="Link Pubblicazione" class="scrivo">
+									</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<input type="text" data-role="none" name="dimensioni" id="dimensioni" value="" placeholder="Dimensioni" class="scrivo">
+									</td>
+								</tr>
+							</table>
+							<!--QUI-->
+							
+						 
+						</form>
+					 <table height="60"><tr><td></td></tr></table>
+						</div>
+			</div>
+			
+			
+			
+			<div id="footer4" data-position="fixed" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" style="display:none;position: absolute" data-transition="none">
+				<table id="idfooter4" width="100%" align="center">
+					<tr>
+						<td width="25%" align="center">
+							<a href="#page0" onclick='javascript:listacollection()' data-rel="back" data-transition="slidedown" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back">Back</a>
+						</td>
+						<td width="25%" align="center">
+							<a href="#" onclick="javascript:salvaquadri()"  rel="external" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-check">Save</a>
+						</td>
+						<td width="25%" align="center">
+							<a href="#" onclick="javascript:nuovaquadri()"  rel="external" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-search">New</a>
+						</td>
+						<td width="25%" align="center">
+							<a href="#page0" onclick='javascript:listacollection2(3)' class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-grid" data-transition="slide">List</a>
+							
+							<!--href="#mypanelC" onclick="javascript:listquadri()"-->
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div data-role="panel" id="mypanelC" data-position-fixed="true" data-position="right" data-display="overlay" width="100%" data-theme="b" style="overflow-y: scroll">
+				<div class="panel-wrapper">
+					
+					<center>
+						<img src="img/Logo.png" width="120px"><br><br><font color="#488354" size="3">Lista Quadri</font>
+							</center>
+					<br>
+					
+					<table id="profile" border="0" width="90%">
+						<tr>
+							<td><div id="listaquadri"></div></td>
+						</tr>
+						<tr>
+							<td><div id="risu2"></div></td>
+						</tr>
+					</table>
+				</div>
+				
+				
+			</div>
+		</div><!-- /page -->
+		
+		<div id="page5" data-role="page" class="div2" >
+			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+				<table align="center" width="100%" valign="center" border="0"><tr><td></td></tr><tr><td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td></tr></table>
+			</div>
+			<div class="spinner" id="spinner"></div>
+			
+			<div id="wrapper5">
+				<div id="scroller">
+					<center><br><img id="logo5" src="img/Verde.png" width="180" class="circolare"><br><br>
+						
+					<div id="risultato" align="center"></div>
+						
+					<table width="260px" align="center"><tr><td align="center">
+						
+					 <form name="formia5" action="entra.asp" method="post">
+						<div id="movie-list"></div>
+						<!--<ul data-role="listview"  id="movie-list" data-theme="b"></ul>-->
+						
+					</td></tr></table>
+
+						 
+					<table height="50px" border="0"><tr><td></td></tr></table>
+
+					</form>
+					 
+				</div>
+			</div>
+			
+			
+			<div id="footer" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" >
+				<div data-role="navbar" class="nav" data-grid="b" data-theme="c" class="div1">
+					<ul>
+						<li><a href="#page5" onclick='javascript:menu()' id="programas" data-icon="homehome" rel="external" ><font size="1">MyCollection</font></a></li>
+						<li><a href="index.html" id="menuR" data-icon="ristohome" rel="external"><font size="1">Home</font></a></li>
+						<!--<li><a href="cart.html" id="badde2" class="badge2" data-badge="1" data-icon="taifun" rel="external"><font size="1">Carrello</font></a></li>
+						 <li><a id="btnprofilo7" href="rating.html" data-icon="userhome" rel="external"><font size="1">Recensioni</font></a></li>-->
+						<li><a href="javascript:logout()" data-icon="pinhome"><font size="1">Esci</font></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div><!-- /page -->
+		
+		<div id="page6" data-role="page" class="div2" >
+			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+				<table align="center" width="100%" valign="center" border="0"><tr><td></td></tr><tr><td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td></tr></table>
+			</div>
+			<div class="spinner" id="spinner"></div>
+			
+			<div id="wrapper6">
+				<div id="scroller">
+					<center>
+					<br>
+					 <form name="formia6" action="entra.asp" method="post">
+					
+					 <div id="PageOrologi"></div>
+						 <table width="95%" align="center">
+							 <tr>
+								 <td width"47%" align="left">
+									 <font color="#488354">Nome<br><input type="text" data-role="none" name="nomeC" id="nomeC" value="" placeholder="Nome" class="scrivo1" readonly><br>
+									 Marca<br><input type="text" data-role="none" name="marcaC" id="marcaC" value="" placeholder="Marca" class="scrivo" ><br>
+									 Meccanismo<br><input type="text" data-role="none" name="meccanismoC" id="meccanismoC" value="" placeholder="Meccanismo" class="scrivo" ><br>
+									 Materiale Cassa<br><input type="text" data-role="none" name="materialecassaC" id="materialecassaC" value="" placeholder="Materiale Cassa" class="scrivo" >
+									 <input type="hidden" data-role="none" name="idC" id="idC" value="" placeholder="id" class="scrivo" >
+								 </td>
+								 <td width"6%"></td>
+								 <td width"47%" align="left">
+									 <table  align="center">
+										 <tr>
+											 <td align="center">
+												 <img src="img/vol1.png" id="ImageVol4" height="60px" onerror="imgError(this);">
+													 </td>
+											 <td align="center">
+												 <img src="img/vol1.png" id="ImageVol5" height="60px" onerror="imgError(this);">
+											</td>
+										 </tr>
+										 
+										 <tr>
+											 <td align="center" colspan="2">
+												 <img src="img/vol1.png" id="ImageVol6" height="60px" onerror="imgError(this);">
+											</td>
+										 </tr>
+										 <tr>
+											 <td align="center" colspan="2">
+												 <a id="deleteOrologio" href="#" rel="external"><img src='img/minus.png' width='12px'>&nbsp;<font color="#9f1e24">Elimina</font></a>
+											</td>
+										 </tr>
+										
+									 </table>
+									 
+								 </td>
+								 
+							 </tr>
+						 </table>
+						 
+						 <table width="95%" align="center">
+							 <tr>
+								 <td width"47%" align="left">
+									<font color="#488354"> Materiale Vetro<br><input type="text" data-role="none" name="materialevetroC" id="materialevetroC" value="" placeholder="Materiale Vetro" class="scrivo" >
+								</td>
+								 <td width"6%"></td>
+								 <td width"47%" align="left">
+									<font color="#488354"> Materiale Cinturino<br><input type="text" data-role="none" name="materialecinturinoC" id="materialecinturinoC" value="" placeholder="Materiale Cinturino" class="scrivo" >
+								</td>
+							 </tr>
+						 </table>
+						 <table height="20"><tr><td></td></tr></table>
+						 <table width="95%" align="center">
+							 <tr>
+								 <td width"47%" align="left">
+									 <font color="#488354">Prezzo<br><input type="text" data-role="none" name="prezzoC" id="prezzoC" value="" placeholder="Prezzo" class="scrivo" >
+								</td>
+								 <td width"6%"></td>
+								 <td width"47%" align="left">
+									 <font color="#488354">Tiratura QP<br><input type="text" data-role="none" name="tiraturaqpC" id="tiraturaqpC" value="" placeholder="TiraturaQP" class="scrivo" >
+								</td>
+							 </tr>
+						 </table>
+
+
+					 <table height="50px" border="0">
+						 <tr>
+							 <td align="center" width="50%"><a onclick="javascript:aggiornaorologi()" id="#" data-role="button" class="custom-btn3" data-theme="c"><font color="green" size="4">AGGIORNA</font></a></td>
+							 <td align="center" width="50%"><a href="javascript:stampaorologi()" id="#" data-role="button" class="custom-btn3" data-theme="b"><font color="#fff" size="4">STAMPA</font></a></td>
+						 </tr>
+					 </table>
+					 
+					 </font>
+						 
+					 </form>
+					 
+			</div>
+			</div>
+			
+			
+			<div id="footer" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" >
+				<div data-role="navbar" class="nav" data-grid="b" data-theme="c" class="div1">
+					<ul>
+						<li><a href="#" onclick='javascript:listacollection()' data-rel="back" data-transition="slidedown" data-direction="reverse" data-icon="indietro" ><font size="1">Back</font></a></li>
+						<li><a href="index.html" id="menuR" data-icon="ristohome" rel="external"><font size="1">Home</font></a></li>
+						<!--<li><a href="cart.html" id="badde2" class="badge2" data-badge="1" data-icon="taifun" rel="external"><font size="1">Carrello</font></a></li>
+						 <li><a id="btnprofilo7" href="rating.html" data-icon="userhome" rel="external"><font size="1">Recensioni</font></a></li>-->
+						<li><a href="javascript:logout()" data-icon="pinhome"><font size="1">Esci</font></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div><!-- /page -->
+		
+		<div id="page7" data-role="page" class="div2" >
+			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+				<table align="center" width="100%" valign="center" border="0"><tr><td></td></tr><tr><td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td></tr></table>
+			</div>
+			<div class="spinner" id="spinner"></div>
+			
+			<div id="wrapper7">
+				<div id="scroller">
+					<center>
+						<br>
+					 <form name="formia7" action="entra.asp" method="post">
+						 
+						 <div id="PageMonete"></div>
+
+						 <table width="95%" align="center">
+							 <tr>
+								 <td width"47%" align="left">
+									<font color="#488354">Nome<br><input type="text" data-role="none" name="nomeB" id="nomeB" value="" placeholder="Nome" class="scrivo1" readonly><br>
+									Valore<br><input type="text" data-role="none" name="valoreB" id="valoreB" value="" placeholder="Valore" class="scrivo" ><br>
+									Materiale<br><input type="text" data-role="none" name="materialeB" id="materialeB" value="" placeholder="Materiale" class="scrivo" ><br>
+									Descrizione Fronte<br><input type="text" data-role="none" name="descrizioneFB" id="descrizioneFB" value="" placeholder="Descrizione Fronte" class="scrivo" >
+									<input type="hidden" data-role="none" name="idB" id="idB" value="" placeholder="id" class="scrivo" >
+								</td>
+								 <td width"6%"></td>
+								 <td width"47%" align="left">
+									 <table  align="center">
+										 <tr>
+											 <td align="center">
+												 <img src="img/vol1.png" id="ImageVol" height="60px" onerror="imgError(this);">
+											</td>
+											 <td align="center">
+												 <img src="img/vol1.png" id="ImageVol2" height="60px" onerror="imgError(this);">
+											</td>
+										 </tr>
+										 <tr>
+											 <td align="center" colspan="2">
+												 <img src="img/vol1.png" id="ImageVol3" height="60px" onerror="imgError(this);">
+											</td>
+										 </tr>
+										 <tr>
+											 <td align="center" colspan="2">
+												 <a id="deleteMonete" href="#" rel="external"><img src='img/minus.png' width='12px'>&nbsp;<font color="#9f1e24">Elimina</font></a>
+											 </td>
+										 </tr>
+									</table>
+									 
+								 </td>
+								 
+							 </tr>
+						 </table>
+						 
+						 <table width="95%" align="center">
+							 <tr>
+								 <td width"47%" align="left">
+									 <font color="#488354">Descrizione Retro<br><input type="text" data-role="none" name="descrizioneRB" id="descrizioneRB" value="" placeholder="Descrizione Retro" class="scrivo" >
+										 </td>
+								 <td width"6%"></td>
+								 <td width"47%" align="left">
+									 <font color="#488354">Descrizione Bordo<br><input type="text" data-role="none" name="descrizioneBB" id="descrizioneBB" value="" placeholder="Descrizione Bordo" class="scrivo" >
+								</td>
+							 </tr>
+						 </table>
+						 <table height="20"><tr><td></td></tr></table>
+						 <table width="95%" align="center">
+							 <tr>
+								 <td width"47%" align="left">
+									 <font color="#488354">Rarita'<br><input type="text" data-role="none" name="raritaB" id="raritaB" value="" placeholder="Rarita" class="scrivo" >
+										 </td>
+								 <td width"6%"></td>
+								 <td width"47%" align="left">
+									<font color="#488354">Posseduta<br> <input type="text" data-role="none" name="possedutaB" id="possedutaB" value="" placeholder="Posseduta" class="scrivo" >
+										 </td>
+							 </tr>
+						 </table>
+						 <table height="20"><tr><td></td></tr></table>
+						 <table width="95%" align="center">
+							 <tr>
+								 <td width"47%" align="left">
+									 <font color="#488354">Dimensione<br><input type="text" data-role="none" name="dimensioneB" id="dimensioneB" value="" placeholder="Dimensione" class="scrivo" >
+										 </td>
+								 <td width"6%"></td>
+								 <td width"47%" align="left">
+									 <font color="#488354">Stato Conservazione<br><input type="text" data-role="none" name="statoconservazioneB" id="statoconservazioneB" value="" placeholder="Stato Conservazione" class="scrivo" >
+								</td>
+							 </tr>
+						 </table>
+						 <table height="20"><tr><td></td></tr></table>
+						 <table width="95%" align="center">
+							 <tr>
+								 <td width"47%" align="left">
+									<font color="#488354"> Valore<br><input type="text" data-role="none" name="valore2B" id="valore2B" value="" placeholder="Valore" class="scrivo" >
+										 </td>
+								 <td width"6%"></td>
+								 <td width"47%" align="left">
+									 <font color="#488354">Anno<br><input type="text" data-role="none" name="annoB" id="annoB" value="" placeholder="Anno" class="scrivo" >
+								</td>
+							 </tr>
+						 </table>
+						 <table height="20"><tr><td></td></tr></table>
+						 <table width="95%" align="center">
+							 <tr>
+								 <td width"47%" align="left">
+									 <font color="#488354">Tiratura<br><input type="text" data-role="none" name="tiraturaB" id="tiraturaB" value="" placeholder="Tiratura" class="scrivo" >
+										 </td>
+								 <td width"6%"></td>
+								 <td width"47%" align="left">
+									 
+								 </td>
+							 </tr>
+						 </table>
+						 
+						 <table height="50px" border="0">
+							 <tr>
+								 <td align="center" width="50%"><a onclick="javascript:aggiornamonete()" href="#" id="#" data-role="button" class="custom-btn3" data-theme="c"><font color="green" size="4">AGGIORNA</font></a></td>
+								 <td align="center" width="50%"><a href="javascript:stampamonete()" id="#" data-role="button" class="custom-btn3" data-theme="b"><font color="#fff" size="4">STAMPA</font></a></td>
+							 </tr>
+						 </table>
+						 
+					 </form>
+					 
+						</div>
+			</div>
+			
+			
+			<div id="footer" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" >
+				<div data-role="navbar" class="nav" data-grid="b" data-theme="c" class="div1">
+					<ul>
+						<li><a href="#" onclick='javascript:listacollection()' data-rel="back" data-transition="slidedown" data-direction="reverse" data-icon="indietro" ><font size="1">Back</font></a></li>
+						<li><a href="index.html" id="menuR" data-icon="ristohome" rel="external"><font size="1">Home</font></a></li>
+						<!--<li><a href="cart.html" id="badde2" class="badge2" data-badge="1" data-icon="taifun" rel="external"><font size="1">Carrello</font></a></li>
+						 <li><a id="btnprofilo7" href="rating.html" data-icon="userhome" rel="external"><font size="1">Recensioni</font></a></li>-->
+						<li><a href="javascript:logout()" data-icon="pinhome"><font size="1">Esci</font></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div><!-- /page -->
+		
+		<div id="page8" data-role="page" class="div2" >
+			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+				<table align="center" width="100%" valign="center" border="0"><tr><td></td></tr><tr><td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td></tr></table>
+			</div>
+			<div class="spinner" id="spinner"></div>
+			
+			<div id="wrapper8">
+				<div id="scroller">
+					<center>
+						<br>
+					 <form name="formia8" action="entra.asp" method="post">
+						 
+						 <div id="PageQuadri"></div>
+						 <table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<font color="#488354">Nome<br><input type="text" data-role="none" name="nomeD" id="nomeD" value="" placeholder="Nome" class="scrivo1" readonly><br>
+										Quadro<br><input type="text" data-role="none" name="quadroD" id="quadroD" value="" placeholder="Quadro" class="scrivo" ><br>
+										Titolo<br><input type="text" data-role="none" name="titoloD" id="titoloD" value="" placeholder="Titolo" class="scrivo" ><br>
+		
+										<input type="hidden" data-role="none" name="idD" id="idD" value="" placeholder="id" class="scrivo" >
+									</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<table  align="center">
+											<tr>
+												<td align="center">
+													<img src="img/vol1.png" id="ImageVol7" height="60px">
+												</td>
+												<td align="center">
+													<img src="img/vol1.png" id="ImageVol8" height="60px">
+												</td>
+											</tr>
+
+											<tr>
+												<td align="center" colspan="2">
+													<img src="img/vol1.png" id="ImageVol9" height="60px">
+												</td>
+											</tr>
+										 <tr>
+											 <td align="center" colspan="2">
+												 <a id="deleteQuadri" href="#" rel="external"><img src='img/minus.png' width='12px'>&nbsp;<font color="#9f1e24">Elimina</font></a>
+											 </td>
+										 </tr>
+										</table>
+										
+									</td>
+									
+								</tr>
+							</table>
+						 <table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<font color="#488354">Autore<br><input type="text" data-role="none" name="autoreD" id="autoreD" value="" placeholder="Autore" class="scrivo" >
+											</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<font color="#488354">Quotazione<br><input type="text" data-role="none" name="quotazioneD" id="quotazioneD" value="" placeholder="Quotazione" class="scrivo" >
+									</td>
+								</tr>
+							</table>
+							<table height="20"><tr><td></td></tr></table>
+						 
+						 
+						 <table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<font color="#488354">Provenienza<br><input type="text" data-role="none" name="provenienzaD" id="provenienzaD" value="" placeholder="Provenienza" class="scrivo" >
+									</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<font color="#488354">Iscrizione<br><input type="text" data-role="none" name="iscrizioneD" id="iscrizioneD" value="" placeholder="Iscrizione" class="scrivo" >
+									</td>
+								</tr>
+							</table>
+							<table height="20"><tr><td></td></tr></table>
+							<table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<font color="#488354">Firme<br><input type="text" data-role="none" name="firmeD" id="firmeD" value="" placeholder="Firme" class="scrivo" >
+									</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<font color="#488354">Esposto<br><input type="text" data-role="none" name="espostoD" id="espostoD" value="" placeholder="Esposto" class="scrivo" >
+									</td>
+								</tr>
+							</table>
+							<table height="20"><tr><td></td></tr></table>
+							<table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<font color="#488354">Dove Esposto<br><input type="text" data-role="none" name="doveD" id="doveD" value="" placeholder="Dove" class="scrivo" >
+									</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<font color="#488354">Link Autore<br><input type="text" data-role="none" name="linkautoreD" id="linkautoreD" value="" placeholder="LinkAutore" class="scrivo" >
+									</td>
+								</tr>
+							</table>
+							
+							<table height="20"><tr><td></td></tr></table>
+							<table width="95%" align="center">
+								<tr>
+									<td width"47%" align="left">
+										<font color="#488354">Link Pubblicazione<br><input type="text" data-role="none" name="linkpubblicazineD" id="linkpubblicazineD" value="" placeholder="Link Pubblicazione" class="scrivo" >
+									</td>
+									<td width"6%"></td>
+									<td width"47%" align="left">
+										<font color="#488354">Dimensione<br><input type="text" data-role="none" name="dimensioneD" id="dimensioneD" value="" placeholder="Dimensioni" class="scrivo" >
+									</td>
+								</tr>
+							</table>
+
+						 
+						 <table height="50px" border="0">
+							 <tr>
+								 <td align="center" width="50%"><a onclick="javascript:aggiornaquadri()" href="#" id="#" data-role="button" class="custom-btn3" data-theme="c"><font color="green" size="4">AGGIORNA</font></a></td>
+								 <td align="center" width="50%"><a href="javascript:stampaquadri()" id="#" data-role="button" class="custom-btn3" data-theme="b"><font color="#fff" size="4">STAMPA</font></a></td>
+							 </tr>
+						 </table>
+						 
+					 </form>
+					 
+						</div>
+			</div>
+			
+			
+			<div id="footer" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" >
+				<div data-role="navbar" class="nav" data-grid="b" data-theme="c" class="div1">
+					<ul>
+						<li><a href="#" onclick='javascript:listacollection()' data-rel="back" data-transition="slidedown" data-direction="reverse" data-icon="indietro" ><font size="1">Back</font></a></li>
+						<li><a href="index.html" id="menuR" data-icon="ristohome" rel="external"><font size="1">Home</font></a></li>
+						<!--<a href="#" data-rel="back" data-transition="slidedown" data-direction="reverse" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-notext ui-btn-left">Back</a>-->
+						<li><a href="javascript:logout()" data-icon="pinhome"><font size="1">Esci</font></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div><!-- /page -->
+		
+		<div id="page9" data-role="page" class="div2" >
+			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+				<table align="center" width="100%" valign="center" border="0"><tr><td></td></tr><tr><td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td></tr></table>
+			</div>
+			<div class="spinner" id="spinner"></div>
+			
+			<div id="wrapper9">
+				<div id="scroller">
+					<center><br>
+						<div id="NomeCollez9"></div>
+						<br>
+
+						<table width="260px" align="center">
+							<form name="formia9" action="entra.asp" method="post">
+								
+							<tr>
+								<td width"100%" align="center">
+									<input type="text" data-role="none" name="nome" id="nome" value="" placeholder="Nome" class="scrivo" readonly >
+								</td>
+								
+							</tr>
+							<tr>
+								<td width"100%" align="left">
+									<label>
+										<input type="checkbox" name="CValore" id="CValore">Valore
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td width"100%" align="left">
+									<label>
+										<input type="checkbox" name="CMateriale" id="CMateriale">Materiale
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td width"100%" align="left">
+									<label>
+										<input type="checkbox" name="CProvenienza" id="CProvenienza">Provenienza
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td width"100%" align="left">
+									<label>
+										<input type="checkbox" name="CDescrizioneFronte" id="CDescrizioneFronte">Descrizione 1
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td width"100%" align="left">
+									<label>
+										<input type="checkbox" name="CDescrizioneRetro" id="CDescrizioneRetro">Descrizione 2
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td width"100%" align="left">
+									<label>
+										<input type="checkbox" name="CAnno" id="CAnno">Anno
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td width"100%" align="left">
+									<label>
+										<input type="checkbox" name="CTiratura" id="CTiratura">Tiratura
+											</label>
+								</td>
+							</tr>
+							<tr>
+								<td width"100%" align="left">
+									<label>
+										<input type="checkbox" name="CDimensione" id="CDimensione">Dimensione
+											</label>
+								</td>
+							</tr>
+							<tr>
+								<td width"100%" align="left">
+									<label>
+										<input type="checkbox" name="CPosseduta" id="CPosseduta">Peso
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td width"100%" align="left">
+									<label>
+										<input type="checkbox" name="CRarita" id="CRarita">Rarita
+											</label>
+								</td>
+							</tr>
+						</table>
+						
+						<table height="50px" border="0"><tr><td></td></tr></table>
+						
+						</form>
+					 
+						</div>
+			</div>
+			
+			
+			<div id="footer9" data-position="fixed" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" data-transition="none">
+				<table id="idfooter4" width="100%" align="center">
+					<tr>
+						<td width="33%" align="center">
+							<a  data-rel="back" data-transition="slidedown" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back">Back</a>
+						</td>
+						<td width="33%" align="center">
+							<a href="#" onclick="javascript:salvaaltro()"  rel="external" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-check">Save</a>
+						</td>
+						<td width="34%" align="center">
+							<a href="#page0" onclick='javascript:listacollection2(4)'  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-grid" data-transition="slide">List</a>
+							
+							<!--href="#mypanelBB" onclick="javascript:listaltroBB()"-->
+							
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div data-role="panel" id="mypanelBB" data-position-fixed="true" data-position="right" data-display="overlay" width="100%" data-theme="b" style="overflow-y: scroll">
+				<div class="panel-wrapper">
+					
+					<center>
+						<img src="img/Logo.png" width="120px"><br><br><font color="#488354" size="3">Lista Altro</font>
+							</center>
+					<br>
+					
+					<table id="profileBB" border="0" width="90%">
+						<tr>
+							<td><div id="listaaltroBB"></div></td>
+						</tr>
+						<tr>
+							<td><div id="risub"></div></td>
+						</tr>
+					</table>
+				</div>
+				
+			</div>
+			
+			
+		</div><!-- /page -->
+
+
+<div id="page10" data-role="page" class="div2" >
+	<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+		<table align="center" width="100%" valign="center" border="0"><tr><td></td></tr><tr><td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td></tr></table>
+	</div>
+	<div class="spinner" id="spinner"></div>
+	
+	<div id="wrapper10">
+		<div id="scroller">
+			<center><br>
+				<div id="NomeCollez10"></div><br><br>
+				<table width="260px" align="center"><tr><td align="center">
+					
+					<form name="formia10" action="entra.asp" method="post">
+						
+						<div id="movie-list2" align="center"></div>
+						
+						<!--<ul data-role="listview"  id="movie-list2" data-theme="b"></ul>-->
+						
+						</td>
+				</tr>
+				</table>
+				
+				
+				<table height="50px" border="0"><tr><td></td></tr></table>
+				
+				</form>
+				
+				</div>
+	</div>
+	
+	
+	<div id="footer" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" >
+		<div data-role="navbar" class="nav" data-grid="b" data-theme="c" class="div1">
+			<ul>
+				<li><a href="#page5" onclick='javascript:menu()' id="programas" data-icon="indietro" rel="external" ><font size="1">Indietro</font></a></li>
+				<li><a href="index.html" id="menuR" data-icon="ristohome" rel="external"><font size="1">Home</font></a></li>
+				<li><a href="javascript:logout()" data-icon="pinhome"><font size="1">Esci</font></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	
+</div><!-- /page -->
+
+<div id="page11" data-role="page" data-iscroll="enable">
+	<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+		<table align="center" width="100%" valign="center" border="0">
+			<tr>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td>
+			</tr>
+		</table>
+	</div>
+	<div class="spinner" id="spinner"></div>
+	
+	<div id="wrapper11">
+		<div id="scroller">
+			<center><br>
+				<form name="formia11" action="entra.asp" method="post">
+					
+					<div id="NomeCollezAA"></div>
+					<input type="hidden" data-role="none" name="nomeAA" id="nomeAA" value="" placeholder="Nome" class="scrivo">
+						<br>
+						
+						<table width="95%" align="center">
+							<tr>
+								<td width"47%" align="left">
+									<input type="text" data-role="none" name="nomecollezioneAA" id="nomecollezioneAA" value="" placeholder="Nome" class="scrivo"><br>
+									 <input type="text" data-role="none" name="valoreAA" id="valoreAA" value="" placeholder="Valore" class="scrivo"><br>
+									 <input type="text" data-role="none" name="provenienzaAA" id="provenienzaAA" value="" placeholder="Provenienza" class="scrivo"><br>
+									 <input type="text" data-role="none" name="materialeAA" id="materialeAA" value="" placeholder="Materiale" class="scrivo"><br>
+									 <input type="text" data-role="none" name="descrizioneFAA" id="descrizioneFAA" value="" placeholder="Descrizione 1" class="scrivo">
+								</td>
+								<td width"6%"></td>
+								<td width"47%" align="left">
+									<table  align="center">
+										<tr>
+											<td align="center" width="50%">
+												<img src="img/vol1.png" id="myImageVol10" height="60px">
+													</td>
+											<td align="center" width="50%">
+												<img src="img/vol1.png" id="myImageVol11" height="60px">
+													</td>
+										</tr>
+										<tr>
+											<td align="center" width="50%">
+												<a id="radio" href="javascript:prendi10()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+											</td>
+											<td align="center" width="50%">
+												<a id="radio" href="javascript:prendi11()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+											</td>
+										</tr>
+										<tr>
+											<td align="center" colspan="2" width="100%">
+												<img src="img/vol1.png" id="myImageVol12" height="60px">
+											</td>
+										</tr>
+										<tr>
+											<td align="center" colspan="2" width="100%">
+												<a id="radio" href="javascript:prendi12()" data-role="button" data-theme="b" class="custom-btn5" rel="external">load</a>
+											</td>
+										</tr>
+									</table>
+									
+								</td>
+								
+							</tr>
+						</table>
+						<br>
+						
+						
+					 <table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="descrizioneRAA" id="descrizioneRAA" value="" placeholder="Descrizione 2" class="scrivo">
+									 </td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 <input type="hidden" data-role="none" name="descrizioneBAA" id="descrizioneBAA" value="" placeholder="Descrizione Bordo" class="scrivo">
+								 <input type="text" data-role="none" name="tiraturaAA" id="tiraturaAA" value="" placeholder="Tiratura" class="scrivo">
+							</td>
+						 </tr>
+					 </table>
+					 <table height="20"><tr><td></td></tr></table>
+					 <table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="raritaAA" id="raritaAA" value="" placeholder="Rarita" class="scrivo">
+									 </td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="possedutaAA" id="possedutaAA" value="" placeholder="Posseduta" class="scrivo">
+							</td>
+						 </tr>
+					 </table>
+					 <table height="20"><tr><td></td></tr></table>
+					 <table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="dimensioneAA" id="dimensioneAA" value="" placeholder="Dimensione" class="scrivo">
+									 </td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 <input type="hidden" data-role="none" name="statoconservazioneAA" id="statoconservazioneAA" value="" placeholder="Stato Conservazione" class="scrivo">
+								 <input type="hidden" data-role="none" name="valore2AA" id="valore2AA" value="" placeholder="Stato Conservazione" class="scrivo">
+								 <input type="text" data-role="none" name="annoAA" id="annoAA" value="" placeholder="Anno" class="scrivo">
+							</td>
+						 </tr>
+					 </table>
+					 <table height="20"><tr><td></td></tr></table>
+					 <!--<table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 <input type="text" data-role="none" name="valore2AA" id="valore2AA" value="" placeholder="Valore" class="scrivo">
+								 
+							 </td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 
+							</td>
+						 </tr>
+					 </table>
+					 <table height="20"><tr><td></td></tr></table>
+					 <table width="95%" align="center">
+						 <tr>
+							 <td width"47%" align="left">
+								 
+									 </td>
+							 <td width"6%"></td>
+							 <td width"47%" align="left">
+								 
+							 </td>
+						 </tr>
+					 </table>-->
+					 <!--QUI-->
+					 
+					 <table height="60"><tr><td></td></tr></table>
+					 
+						</form>
+				</div>
+	</div>
+	
+	
+	<div id="footer11" data-position="fixed" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" style="position: absolute" data-transition="none">
+		<table id="idfooter4" width="100%" align="center">
+			<tr>
+				<td width="25%" align="center">
+					<a href="#page9"  data-rel="back" data-transition="slidedown" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back">Back</a>
+				</td>
+				<td width="25%" align="center">
+					<a href="#" onclick="javascript:salvaaltro2()"  rel="external" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-check">Save</a>
+				</td>
+				<td width="25%" align="center">
+					<a href="#" onclick="javascript:nuovaaltro()"  rel="external" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-search">New</a>
+				</td>
+				<td width="25%" align="center">
+					<a href="#page0" onclick='javascript:listacollection2(4)' class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-grid" data-transition="slide">List</a>
+					
+					<!--href="#mypanelAA" onclick="javascript:listaltro()"-->
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<div data-role="panel" id="mypanelAA" data-position-fixed="true" data-position="right" data-display="overlay" width="100%" data-theme="b" style="overflow-y: scroll">
+		<div class="panel-wrapper">
+			
+			<center>
+				<img src="img/Logo.png" width="120px"><br><br><font color="#488354" size="3">Lista Altro</font>
+					</center>
+			<br>
+			
+			<table id="profileAA" border="0" width="90%">
+				<tr>
+					<td><div id="listaaltro"></div></td>
+				</tr>
+				<tr>
+					<td><div id="risua"></div></td>
+				</tr>
+			</table>
+		</div>
+		
+		
+	</div>
+	
+</div><!-- /page -->
+
+<div id="page12" data-role="page" class="div2" >
+	<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
+		<table align="center" width="100%" valign="center" border="0"><tr><td></td></tr><tr><td align="center" valign="center"><img src="img/LogoWhite.png" height="36px"></td></tr></table>
+	</div>
+	<div class="spinner" id="spinner"></div>
+	
+	<div id="wrapper12">
+		<div id="scroller">
+			<center>
+				<br>
+				<form name="formia12" action="entra.asp" method="post">
+					
+					<div id="PageAltro"></div>
+					
+					<table width="95%" align="center">
+						<tr>
+							<td width"47%" align="left">
+								<font color="#488354">Nome<br><input type="text" data-role="none" name="nomeBA" id="nomeBA" value="" placeholder="Nome" class="scrivo1" readonly><br>
+									<div id="valA">Valore</div><br><input type="text" data-role="none" name="valoreBA" id="valoreBA" value="" placeholder="Valore" class="scrivo" ><br>
+									<div id="matA">Materiale</div><br><input type="text" data-role="none" name="materialeBA" id="materialeBA" value="" placeholder="Materiale" class="scrivo" ><br>
+									<div id="DescrfroA">Descrizione 1</div><br><input type="text" data-role="none" name="descrizioneFBA" id="descrizioneFBA" value="" placeholder="Descrizione Fronte" class="scrivo" >
+									<input type="hidden" data-role="none" name="idBA" id="idBA" value="" placeholder="id" class="scrivo" >
+							</td>
+							<td width"6%"></td>
+							<td width"47%" align="left">
+								<table  align="center">
+									<tr>
+										<td align="center">
+											<img src="img/vol1.png" id="ImageVol10" height="60px" onerror="imgError(this);">
+												</td>
+										<td align="center">
+											<img src="img/vol1.png" id="ImageVol11" height="60px" onerror="imgError(this);">
+										</td>
+									</tr>
+									<tr>
+										<td align="center" colspan="2">
+											<img src="img/vol1.png" id="ImageVol12" height="60px" onerror="imgError(this);">
+										</td>
+									</tr>
+									<tr>
+										<td align="center" colspan="2">
+											<a id="deleteAltro" href="#" rel="external"><img src='img/minus.png' width='12px'>&nbsp;<font color="#9f1e24">Elimina</font></a>
+										</td>
+									</tr>
+								</table>
+								
+							</td>
+							
+						</tr>
+					</table>
+					
+					<table width="95%" align="center">
+						<tr>
+							<td width"100%" align="left">
+								<div id="descrRetA"><font color="#488354">Descrizione 2<br></div><input type="text" data-role="none" name="descrizioneRBA" id="descrizioneRBA" value="" placeholder="Descrizione 1" class="scrivo" ><br>
+								<div id="DescrBorA"><font color="#488354">Descrizione 2<br></div><input type="text" data-role="none" name="descrizioneBBA" id="descrizioneBBA" value="" placeholder="Descrizione 2" class="scrivo" ><br>
+								<div id="ProvA"><font color="#488354">Provenienza<br></div><input type="text" data-role="none" name="provenienzaBA" id="provenienzaBA" value="" placeholder="Provenienza" class="scrivo" ><br>
+								<div id="RarA"><font color="#488354">Rarita'<br></div><input type="text" data-role="none" name="raritaBA" id="raritaBA" value="" placeholder="Rarita" class="scrivo" ><br>
+								<div id="DimA"><font color="#488354">Dimensione<br></div><input type="text" data-role="none" name="dimensioneBA" id="dimensioneBA" value="" placeholder="Dimensione" class="scrivo" ><br>
+								<div id="TirA"><font color="#488354">Tiratura<br></div><input type="text" data-role="none" name="tiraturaBA" id="tiraturaBA" value="" placeholder="Tiratura" class="scrivo" ><br>
+								<div id="AnnA"><font color="#488354">Anno<br></div><input type="text" data-role="none" name="annoBA" id="annoBA" value="" placeholder="Anno" class="scrivo" ><br>
+							</td>
+						</tr>
+					</table>
+					
+					<table height="20"><tr><td></td></tr></table>
+					
+					<table width="95%" align="center">
+						<tr>
+							<td width"100%" align="left">
+								<input type="hidden" data-role="none" name="possedutaBA" id="possedutaBA" value="" placeholder="Posseduta" class="scrivo" >
+								<input type="hidden" data-role="none" name="statoconservazioneBA" id="statoconservazioneBA" value="" placeholder="Stato Conservazione" class="scrivo" >
+								<input type="hidden" data-role="none" name="valore2BA" id="valore2BA" value="" placeholder="Valore" class="scrivo" >
+							</td>
+						</tr>
+					</table>
+
+					<table height="20"><tr><td></td></tr></table>
+					<!--<table width="95%" align="center">
+						<tr>
+							<td width"47%" align="left">
+								
+							</td>
+							<td width"6%"></td>
+							<td width"47%" align="left">
+								
+							</td>
+						</tr>
+					</table>-->
+					
+					<table height="50px" border="0">
+						<tr>
+							<td align="center" width="50%"><a onclick="javascript:aggiornaaltro()" href="#" id="#" data-role="button" class="custom-btn3" data-theme="c"><font color="green" size="4">AGGIORNA</font></a></td>
+							<td align="center" width="50%"><a href="#" id="#" data-role="button" class="custom-btn3" data-theme="b"><font color="#fff" size="4">STAMPA</font></a></td>
+						</tr>
+					</table>
+					
+				</form>
+				
+				</div>
+	</div>
+	
+	
+	<div id="footer" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" >
+		<div data-role="navbar" class="nav" data-grid="b" data-theme="c" class="div1">
+			<ul>
+				<li><a href="#" onclick='javascript:listacollection()' data-rel="back" data-transition="slidedown" data-direction="reverse" data-icon="indietro" ><font size="1">Back</font></a></li>
+				<li><a href="index.html" id="menuR" data-icon="ristohome" rel="external"><font size="1">Home</font></a></li>
+				<!--<li><a href="cart.html" id="badde2" class="badge2" data-badge="1" data-icon="taifun" rel="external"><font size="1">Carrello</font></a></li>
+				 <li><a id="btnprofilo7" href="rating.html" data-icon="userhome" rel="external"><font size="1">Recensioni</font></a></li>-->
+				<li><a href="javascript:logout()" data-icon="pinhome"><font size="1">Esci</font></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	
+</div><!-- /page -->
+
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+		
+		<script type="text/javascript">
+			
+			carica()
+			
+		</script>
+		
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+		
+    </body>
+</html>
