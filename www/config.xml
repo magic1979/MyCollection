@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id        = "it.app-piu.pizzaelite"
-		versionCode="2.0"
-		version   = "2.0">
+		id        = "it.mycollection"
+		versionCode="1.0"
+		version   = "1.0">
 		<name>MyCollection</name>
 		<description>MyColection, App per Collezionisti</description>
-		<author href="http://www.app-piu.it" email="info@app-piu.it">
+		<author href="http://my-collection.it" email="appmycollection@gmail.com">
 			Associazione Game Answer
 		</author>
 		<preference name="phonegap-version" value="cli-5.2.0" />
