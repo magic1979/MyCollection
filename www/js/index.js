@@ -561,7 +561,7 @@ function carica2(){
 	localStorage.setItem("Foto2", "");
 	localStorage.setItem("Foto3", "");
 	
-	//var myScroll2;
+	var myScroll2;
 	
 		myScroll2 = new IScroll('#wrapper2', { click: true, bounce: true });
 		setTimeout (function(){
@@ -577,6 +577,23 @@ function carica2(){
 	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 	
 	//document.body.style.height = screen.availHeight + 'px';
+	
+	
+	
+$('input, textarea').bind('focus', function(e) {
+    console.error("onFocus");
+    $elm = $(this);
+});
+
+$(window).bind('resize', function() {
+    console.error("onResize");
+    if (myScroll2 !== undefined) {
+        setTimeout(function() {
+            myScroll2.refresh();
+            myScroll2.scrollToElement($elm[0], 200);
+        }, 100);
+    }
+});
 	
 }
 
