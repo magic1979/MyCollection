@@ -538,7 +538,7 @@ function carica2(){
 	
 	document.body.style.height = screen.availHeight + 'px';
 	
-							$('#valore').focus(function(){
+						/*$('#valore').focus(function(){
 							myScroll2.scrollToElement("#valore", "1s");
 						});
 							$('#materiale').focus(function(){
@@ -574,7 +574,7 @@ function carica2(){
 						
 						$('#tiratura').focus(function(){
 							myScroll2.scrollToElement("#tiratura", "1s");
-						});
+						});*/
 }
 
 function carica3(){
