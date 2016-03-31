@@ -11,8 +11,8 @@ Prolution srl
 		</author>
 		<preference name="phonegap-version" value="cli-5.2.0" />
 		<preference name="orientation" value="portrait" />
+		<preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
 		<preference name="fullscreen" value="false" />
-		<preference name="android-windowSoftInputMode" value="stateVisible" />
 		<preference name="target-device" value="universal" />
 		<preference name="webviewbounce" value="true" />
 		<preference name="prerendered-icon" value="true" />
