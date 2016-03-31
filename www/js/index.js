@@ -23,6 +23,46 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
+		
+		var myScroll2;
+		
+		$('#valore').focus(function(){
+			myScroll2.scrollToElement("#valore", "1s");
+		});
+			$('#materiale').focus(function(){
+			myScroll2.scrollToElement("#materiale", "1s");
+		});
+			$('#descrizioneF').focus(function(){
+			myScroll2.scrollToElement("#descrizioneF", "1s");
+		});
+			$('#descrizioneR').focus(function(){
+			myScroll2.scrollToElement("#descrizioneR", "1s");
+		});
+			$('#descrizioneB').focus(function(){
+			myScroll2.scrollToElement("#descrizioneB", "1s");
+		});
+			$('#rarita').focus(function(){
+			myScroll2.scrollToElement("#rarita", "1s");
+		});
+			$('#posseduta').focus(function(){
+			myScroll2.scrollToElement("#posseduta", "1s");
+		});
+			$('#dimensione').focus(function(){
+			myScroll2.scrollToElement("#dimensione", "1s");
+		});
+			$('#statoconservazione').focus(function(){
+			myScroll2.scrollToElement("#statoconservazione", "1s");
+		});
+			$('#valore2').focus(function(){
+			myScroll2.scrollToElement("#valore2", "1s");
+		});
+			$('#anno').focus(function(){
+			myScroll2.scrollToElement("#anno", "1s");
+		});
+		
+		$('#tiratura').focus(function(){
+			myScroll2.scrollToElement("#tiratura", "1s");
+		});
 	
 		
 		var provenienza = getParameterByName('id');
@@ -98,19 +138,19 @@ var app = {
 		
 		document.addEventListener('click', function (e) {
 								  
-								  click_time = e['timeStamp'];
-								  
-								  if (click_time && (click_time - last_click_time) < 1000) { e.stopImmediatePropagation();
-								  
-								  e.preventDefault();
-								  
-								  return false;
-								  
-								  }
-								  
-								  last_click_time = click_time;
-								  
-								  }, true);
+		  click_time = e['timeStamp'];
+		  
+		  if (click_time && (click_time - last_click_time) < 1000) { e.stopImmediatePropagation();
+		  
+		  e.preventDefault();
+		  
+		  return false;
+		  
+		  }
+		  
+		  last_click_time = click_time;
+		  
+		 }, true);
 		
 		
 		// Workaround for buggy header/footer fixed position when virtual keyboard is on/off
@@ -521,7 +561,7 @@ function carica2(){
 	localStorage.setItem("Foto2", "");
 	localStorage.setItem("Foto3", "");
 	
-	var myScroll2;
+	//var myScroll2;
 	
 		myScroll2 = new IScroll('#wrapper2', { click: true, bounce: true });
 		setTimeout (function(){
@@ -538,43 +578,6 @@ function carica2(){
 	
 	//document.body.style.height = screen.availHeight + 'px';
 	
-						/*$('#valore').focus(function(){
-							myScroll2.scrollToElement("#valore", "1s");
-						});
-							$('#materiale').focus(function(){
-							myScroll2.scrollToElement("#materiale", "1s");
-						});
-							$('#descrizioneF').focus(function(){
-							myScroll2.scrollToElement("#descrizioneF", "1s");
-						});
-							$('#descrizioneR').focus(function(){
-							myScroll2.scrollToElement("#descrizioneR", "1s");
-						});
-							$('#descrizioneB').focus(function(){
-							myScroll2.scrollToElement("#descrizioneB", "1s");
-						});
-							$('#rarita').focus(function(){
-							myScroll2.scrollToElement("#rarita", "1s");
-						});
-							$('#posseduta').focus(function(){
-							myScroll2.scrollToElement("#posseduta", "1s");
-						});
-							$('#dimensione').focus(function(){
-							myScroll2.scrollToElement("#dimensione", "1s");
-						});
-							$('#statoconservazione').focus(function(){
-							myScroll2.scrollToElement("#statoconservazione", "1s");
-						});
-							$('#valore2').focus(function(){
-							myScroll2.scrollToElement("#valore2", "1s");
-						});
-							$('#anno').focus(function(){
-							myScroll2.scrollToElement("#anno", "1s");
-						});
-						
-						$('#tiratura').focus(function(){
-							myScroll2.scrollToElement("#tiratura", "1s");
-						});*/
 }
 
 function carica3(){
