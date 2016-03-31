@@ -528,10 +528,17 @@ function carica2(){
 			myScroll2.refresh();
 				setTimeout (function(){
 					$("#footer2").fadeIn();
-					
-						document.body.style.height = screen.availHeight + 'px';
-		
-						$('#valore').focus(function(){
+			}, 500);
+		}, 700);
+
+	
+	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
+	
+	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	
+	document.body.style.height = screen.availHeight + 'px';
+	
+							$('#valore').focus(function(){
 							myScroll2.scrollToElement("#valore", "1s");
 						});
 							$('#materiale').focus(function(){
@@ -568,15 +575,6 @@ function carica2(){
 						$('#tiratura').focus(function(){
 							myScroll2.scrollToElement("#tiratura", "1s");
 						});
-			}, 500);
-		}, 700);
-
-	
-	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
-	
-	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-	
-
 }
 
 function carica3(){
