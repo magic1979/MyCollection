@@ -26,11 +26,10 @@ var app = {
 		var provenienza = getParameterByName('id');
 		
 		//ipad
-		if(screen.width < 768){
+		var isMobileScreenWidth = (screen.width / window.devicePixelRatio)
 			
-			if(screen.height < 500){
-				//iphone 4s
-			}
+		if(isMobileScreenWidth < 768){
+			
 			
 		}
 		else
@@ -131,14 +130,10 @@ var app = {
 		
 		if (localStorage.getItem("email") === null || localStorage.getItem("email")=="null" || typeof(localStorage.getItem("email")) == 'undefined' || localStorage.getItem("email")==0 || localStorage.getItem("email")=="") {
 			
-			if(screen.width < 768){
+			if(isMobileScreenWidth < 768){
 				window.location.href = "testPHONE.html";
 				$(".spinner").hide();
 				return;
-				
-				if(screen.height < 500){
-					//iphone 4s
-				}
 				
 			}
 			else
@@ -1252,11 +1247,15 @@ function prendi(){
 
 
 function Successo(imageData) {
+	var angle = 0
+	angle = (angle+90)%360;
 	
 	localStorage.setItem("Foto1", "data:image/png;base64," + imageData);
 	
 	var image000 = document.getElementById('myImageVol');
 	image000.src = localStorage.getItem("Foto1");
+	
+    image000.className = "rotate"+angle;
 
 }
 
@@ -1272,12 +1271,15 @@ function prendi2(){
 
 
 function Successo2(imageData) {
+	var angle = 0
+	angle = (angle+90)%360;
 	
 	localStorage.setItem("Foto2", "data:image/png;base64," + imageData);
 	
 	var image002 = document.getElementById('myImageVol2');
 	image002.src = localStorage.getItem("Foto2");
 	
+	image002.className = "rotate"+angle;
 }
 
 function prendi3(){
@@ -1292,12 +1294,15 @@ function prendi3(){
 
 
 function Successo3(imageData) {
-	
+	var angle = 0
+	angle = (angle+90)%360;
+
 	localStorage.setItem("Foto3", "data:image/png;base64," + imageData);
 	
 	var image003 = document.getElementById('myImageVol3');
 	image003.src = localStorage.getItem("Foto3");
 	
+	image003.className = "rotate"+angle;
 }
 
 function prendi4(){

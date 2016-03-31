@@ -4,9 +4,10 @@ function onDeviceReady() {
 	//document.addEventListener("resume", onResume, false);
 	
 	//ipad
-	if(screen.width < 768){
+	var isMobileScreenWidth = (screen.width / window.devicePixelRatio)
+	if(isMobileScreenWidth < 768){
 		
-		if(screen.height < 500){
+		if(isMobileScreenWidth < 500){
 			//iphone 4s
 		}
 		$("#pad010").show();

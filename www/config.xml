@@ -12,6 +12,7 @@ Prolution srl
 		<preference name="phonegap-version" value="cli-5.2.0" />
 		<preference name="orientation" value="portrait" />
 		<preference name="fullscreen" value="false" />
+		<preference name="android-windowSoftInputMode" value="stateVisible" />
 		<preference name="target-device" value="universal" />
 		<preference name="webviewbounce" value="true" />
 		<preference name="prerendered-icon" value="true" />
@@ -110,4 +111,10 @@ Prolution srl
 
 		<gap:plugin name="de.appplant.cordova.plugin.email-composer" spec="0.8.2" source="pgb" />
 		<gap:plugin name="pushbots-cordova-plugin" source="npm" version="1.2.8" />
+		
+		<gap:config-file platform="android" parent="/manifest" mode="add" xmlns:android="http://schemas.android.com/apk/res/android">
+		android:windowSoftInputMode="stateVisible"
+		<uses-permission android:name="com.android.vending.BILLING" />
+		</gap:config-file>
+		
 	</widget>
