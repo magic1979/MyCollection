@@ -112,9 +112,4 @@ Prolution srl
 		<gap:plugin name="de.appplant.cordova.plugin.email-composer" spec="0.8.2" source="pgb" />
 		<gap:plugin name="pushbots-cordova-plugin" source="npm" version="1.2.8" />
 		
-		<gap:config-file platform="android" parent="/manifest" mode="add" xmlns:android="http://schemas.android.com/apk/res/android">
-		android:windowSoftInputMode="stateVisible"
-		<uses-permission android:name="com.android.vending.BILLING" />
-		</gap:config-file>
-		
 	</widget>
