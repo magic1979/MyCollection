@@ -536,9 +536,9 @@ function carica2(){
 	
 	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 	
-	document.body.style.height = screen.availHeight + 'px';
+	//document.body.style.height = screen.availHeight + 'px';
 	
-						$('#valore').focus(function(){
+						/*$('#valore').focus(function(){
 							myScroll2.scrollToElement("#valore", "1s");
 						});
 							$('#materiale').focus(function(){
@@ -574,7 +574,7 @@ function carica2(){
 						
 						$('#tiratura').focus(function(){
 							myScroll2.scrollToElement("#tiratura", "1s");
-						});
+						});*/
 }
 
 function carica3(){
