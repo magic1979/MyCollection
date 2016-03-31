@@ -533,6 +533,63 @@ function carica2(){
 	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
 	
 	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	
+	self.document.formia2.nomecollezione.value = ""
+	
+	self.document.formia2.valore.value= ""
+	self.document.formia2.materiale.value= ""
+	self.document.formia2.descrizioneF.value= ""
+	self.document.formia2.descrizioneR.value= ""
+	self.document.formia2.descrizioneB.value= ""
+	self.document.formia2.rarita.value= ""
+	self.document.formia2.posseduta.value= ""
+	self.document.formia2.dimensione.value= ""
+	self.document.formia2.statoconservazione.value= ""
+	self.document.formia2.valore2.value= ""
+	self.document.formia2.anno.value= ""
+	self.document.formia2.tiratura.value= ""
+	
+	
+	$('#nomecollezione').focus(function(){
+		myScroll2.scrollToElement("#nomecollezione", "1s");
+	});
+		$('#valore').focus(function(){
+		myScroll2.scrollToElement("#valore", "1s");
+	});
+		$('#materiale').focus(function(){
+		myScroll2.scrollToElement("#materiale", "1s");
+	});
+		$('#descrizioneF').focus(function(){
+		myScroll2.scrollToElement("#descrizioneF", "1s");
+	});
+		$('#descrizioneR').focus(function(){
+		myScroll2.scrollToElement("#descrizioneR", "1s");
+	});
+		$('#descrizioneB').focus(function(){
+		myScroll2.scrollToElement("#descrizioneB", "1s");
+	});
+		$('#rarita').focus(function(){
+		myScroll2.scrollToElement("#rarita", "1s");
+	});
+		$('#posseduta').focus(function(){
+		myScroll2.scrollToElement("#posseduta", "1s");
+	});
+		$('#dimensione').focus(function(){
+		myScroll2.scrollToElement("#dimensione", "1s");
+	});
+		$('#statoconservazione').focus(function(){
+		myScroll2.scrollToElement("#statoconservazione", "1s");
+	});
+		$('#valore2').focus(function(){
+		myScroll2.scrollToElement("#valore2", "1s");
+	});
+		$('#anno').focus(function(){
+		myScroll2.scrollToElement("#anno", "1s");
+	});
+	
+	$('#tiratura').focus(function(){
+		myScroll2.scrollToElement("#tiratura", "1s");
+	});
 }
 
 function carica3(){
