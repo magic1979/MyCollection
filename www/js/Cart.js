@@ -3,30 +3,46 @@ document.addEventListener('deviceready', onDeviceReady, false);
 function onDeviceReady() {
     //document.addEventListener("resume", onResume, false);
 	
+	$('#valore').focus(function(){
+			myScroll2.scrollToElement("#valore", "1s");
+		});
+			$('#materiale').focus(function(){
+			myScroll2.scrollToElement("#materiale", "1s");
+		});
+			$('#descrizioneF').focus(function(){
+			myScroll2.scrollToElement("#descrizioneF", "1s");
+		});
+			$('#descrizioneR').focus(function(){
+			myScroll2.scrollToElement("#descrizioneR", "1s");
+		});
+			$('#descrizioneB').focus(function(){
+			myScroll2.scrollToElement("#descrizioneB", "1s");
+		});
+			$('#rarita').focus(function(){
+			myScroll2.scrollToElement("#rarita", "1s");
+		});
+			$('#posseduta').focus(function(){
+			myScroll2.scrollToElement("#posseduta", "1s");
+		});
+			$('#dimensione').focus(function(){
+			myScroll2.scrollToElement("#dimensione", "1s");
+		});
+			$('#statoconservazione').focus(function(){
+			myScroll2.scrollToElement("#statoconservazione", "1s");
+		});
+			$('#valore2').focus(function(){
+			myScroll2.scrollToElement("#valore2", "1s");
+		});
+		
+		$('#anno').focus(function(){
+			location.href = "#anno";
+			//myScroll2.scrollToElement("#anno", "1s");
+		});
+		
+		$('#tiratura').focus(function(){
+			myScroll2.scrollToElement("#tiratura", "1s");
+		});
 	
-	$('#OraConsegna').focus(function(){
-		myScroll.scrollToElement("#OraConsegna", "1s");
-	});
-	
-	$('#Note').focus(function(){
-		myScroll.scrollToElement("#Note", "1s");
-	});
-	
-	$('#NomeRegalo').focus(function(){
-		myScroll.scrollToElement("#NomeRegalo", "1s");
-	});
-	
-	$('#Indirizzo').focus(function(){
-		myScroll.scrollToElement("#Indirizzo", "1s");
-	});
-	
-	$('#Telefono').focus(function(){
-		myScroll.scrollToElement("#Telefono", "1s");
-	});
-	
-	$('#Telefono').focus(function(){
-		myScroll.scrollToElement("#Telefono", "1s");
-	});
 	
 	last_click_time = new Date().getTime();
 	
@@ -106,11 +122,6 @@ function onDeviceReady() {
     if(connectionStatus=='online'){
 		$(".spinner").hide();
 		
-		seleziona();
-		
-		mostrapunti()
-			
-		mostraOrario()
     }
     
     else{
@@ -122,7 +133,6 @@ function onDeviceReady() {
 		
 		$("#noconn").html(tabella);
 		
-
     }
 
 }

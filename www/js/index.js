@@ -24,17 +24,6 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
 		
-		$('#tiratura').focus(function(){
-			$("html, body").animate({
-				scrollTop: 100
-			}, 600);
-			//myScroll2.scrollToElement("#tiratura", "1s");
-		});
-		
-		$('#anno').focus(function(){
-			scrollTop: 100
-		});
-		
 		
 		var provenienza = getParameterByName('id');
 		
@@ -575,17 +564,20 @@ function carica2(){
 			$('#statoconservazione').focus(function(){
 			myScroll2.scrollToElement("#statoconservazione", "1s");
 		});
-			$('#valore2').focus(function(){
-			myScroll2.scrollToElement("#valore2", "1s");
+		
+		$('#valore2').focus(function(){
+			myScroll2.scrollTo('#valore2');
+			//myScroll2.scrollToElement("#valore2", "1s");
 		});
 		
-		/*$('#anno').focus(function(){
-			myScroll2.scrollToElement("#anno", "1s");
+		$('#anno').focus(function(){
+			window.location.href = "#anno";
+			//myScroll2.scrollToElement("#anno", "1s");
 		});
 		
 		$('#tiratura').focus(function(){
 			myScroll2.scrollToElement("#tiratura", "1s");
-		});*/
+		});
 	
 }
 
