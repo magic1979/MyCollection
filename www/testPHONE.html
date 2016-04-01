@@ -28,7 +28,7 @@
 
 						function loaded() {
 							myScroll = new iScroll('wrapper', {
-								snap: true,
+								snap: false,
 								momentum: false,
 								hScrollbar: false,
 								onScrollEnd: function () {
@@ -75,7 +75,7 @@ body {
 }
 
 .wrapperPhone {
-	width:320px;
+	width:100%;
 	height:420px;
 	
 	float:center;
@@ -124,7 +124,7 @@ body {
 	-o-box-sizing:border-box;
 	box-sizing:border-box;
 	display:block; float:left;
-	width:320px; height:360px;
+	width:100%; height:360px;
 	text-align:center;
 	font-family:georgia;
 	font-size:18px;
