@@ -533,31 +533,49 @@ function carica2(){
 
 	
 		$('#valore').focus(function(){
-			myScroll2.scrollToElement("#valore", "1s");
+			setTimeout (function(){
+				myScroll2.scrollToElement("#valore", "1s");
+			}, 500);
 		});
-			$('#materiale').focus(function(){
-			myScroll2.scrollToElement("#materiale", "1s");
+		$('#materiale').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#materiale", "1s");
+			}, 500);
 		});
-			$('#descrizioneF').focus(function(){
-			myScroll2.scrollToElement("#descrizioneF", "1s");
+		$('#descrizioneF').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#descrizioneF", "1s");
+			}, 500);
 		});
-			$('#descrizioneR').focus(function(){
-			myScroll2.scrollToElement("#descrizioneR", "1s");
+		$('#descrizioneR').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#descrizioneR", "1s");
+			}, 500);
 		});
-			$('#descrizioneB').focus(function(){
-			myScroll2.scrollToElement("#descrizioneB", "1s");
+		$('#descrizioneB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#descrizioneB", "1s");
+			}, 500);
 		});
-			$('#rarita').focus(function(){
-			myScroll2.scrollToElement("#rarita", "1s");
+		$('#rarita').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#rarita", "1s");
+			}, 500);
 		});
-			$('#posseduta').focus(function(){
-			myScroll2.scrollToElement("#posseduta", "1s");
+		$('#posseduta').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#posseduta", "1s");
+			}, 500);
 		});
 			$('#dimensione').focus(function(){
-			myScroll2.scrollToElement("#dimensione", "1s");
+			setTimeout (function(){
+				myScroll2.scrollToElement("#dimensione", "1s");
+			}, 500);
 		});
 			$('#statoconservazione').focus(function(){
-			myScroll2.scrollToElement("#statoconservazione", "1s");
+			setTimeout (function(){
+				myScroll2.scrollToElement("#statoconservazione", "1s");
+			}, 500);
 		});
 		
 		$('#valore2').focus(function(){
@@ -567,12 +585,15 @@ function carica2(){
 		});
 		
 		$('#anno').focus(function(){
-			//window.location.href = "#anno";
-			myScroll2.scrollToElement("#anno", "1s");
+			setTimeout (function(){
+				myScroll2.scrollToElement("#anno", "1s");
+			}, 500);
 		});
 		
 		$('#tiratura').focus(function(){
-			myScroll2.scrollToElement("#tiratura", "1s");
+			setTimeout (function(){
+				myScroll2.scrollToElement("#tiratura", "1s");
+			}, 500);
 		});
 		
 		document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
