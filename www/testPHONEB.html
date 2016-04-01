@@ -19,27 +19,9 @@
 					<script src="js/jquery-ui.min.js"></script>
 					<script src="js/jquery.mobile-1.4.2.min.js"></script>
 					
-					<script type="text/javascript" src="js/Login.js"></script>
-
 					<script type="text/javascript" src="src/iscroll.js"></script>
-
-					<script type="text/javascript">
-						var myScroll;
-
-						function loaded() {
-							myScroll = new iScroll('wrapper', {
-								snap: true,
-								momentum: false,
-								hScrollbar: false,
-								onScrollEnd: function () {
-									document.querySelector('#indicator > li.active').className = '';
-									document.querySelector('#indicator > li:nth-child(' + (this.currPageX+1) + ')').className = 'active';
-								}
-							 });
-						}
-
-						document.addEventListener('DOMContentLoaded', loaded, false);
-					</script>
+					
+					<script type="text/javascript" src="js/LoginA.js"></script>
 
 <style type="text/css" media="all">
 body,ul,li {
@@ -478,45 +460,16 @@ hr.style-six {
 <div id="wrapper" class="wrapperPhone">
 	<div id="scroller" class="scroller">
     <center><br><br>
-		<ul id="thelist">
-			<li id="li1" class="ciccio">
-				<table id="myTable" class="myTableStyle2" border="0" align="center">
-						<tr>
-							<td align="center"><img id="verde" src="img/Verde.png" class="circolare"></td>
-						</tr>
-						<tr>
-							<td align="center"><br>
-								<font size="5"><em>Porta la tua collezione<br> sempre con te</em></font>
-							</td>
-						</tr>
-					</table>
-			</li>
-			<li id="li2" class="ciccio">
-				<table id="myTable" class="myTableStyle2" border="0" align="center">
-					<tr>
-						<td align="center"><img id="stampante" src="img/stampante.png" width="120"></td>
-					</tr>
-					<tr>
-						<td align="center"><br>
-							<font size="5"><em>Crea le tue etichette</em></font>
-						</td>
-					</tr>
-				</table>
-			</li>
-			<li id="li3" class="ciccio">
-				<table id="myTable" class="myTableStyle2" border="0" align="center">
-					<tr>
-						<td align="center"><img id="logo" src="img/LogoWhite.png" width="240"></td>
-					</tr>
-					<tr>
-						<td align="center"><br>
-							<font size="5"><em>Rendi la tua <br>collezione 2.0</em></font>
-						</td>
-					</tr>
-				</table>
-
-			</li>
-		</ul>
+		<table id="myTable" class="myTableStyle2" border="0" align="center">
+				<tr>
+					<td align="center"><img id="verde" src="img/Verde.png" class="circolare"></td>
+				</tr>
+				<tr>
+					<td align="center"><br>
+						<font size="5"><em>Porta la tua collezione<br> sempre con te</em></font>
+					</td>
+				</tr>
+		</table>
         </center>
 	</div>
 </div>
@@ -531,11 +484,51 @@ hr.style-six {
 </ul>
 
 </td></tr></table>
-<!--<div id="nav">
-	<div id="prev" onclick="myScroll.scrollToPage('prev', 0);return false">&larr; prev</div>-->
-	
-	<!--<div id="next" onclick="myScroll.scrollToPage('next', 0);return false">next &rarr;</div>
-</div>-->
+
+	<div data-role="footer" data-theme="a" align="center" data-position="fixed" data-tap-toggle="false" class="div1">
+		<table id="idfooter4" width="100%" align="center">
+			<td width="50%" align="center">
+				<a href="#page6" id="#" data-role="button" class="custom-btn3" ><font color="green" size="4">Iscriviti Ora</font></a>
+			</td>
+			<td width="50%" align="center">
+				<a href="#page4" id="#" data-role="button" class="custom-btn3" data-theme="b"><font color="#fff" size="4">Accedi</font></a>
+			</td>
+			</tr>
+		</table>
+		
+	</div><!-- /footer4 -->
+</div>
+
+<div id="page2" data-role="page" class="div2" >
+<center>
+<div id="wrapper" class="wrapperPhone">
+	<div id="scroller" class="scroller">
+    <center><br><br>
+				<table id="myTable" class="myTableStyle2" border="0" align="center">
+					<tr>
+						<td align="center"><img id="stampante" src="img/stampante.png" width="120"></td>
+					</tr>
+					<tr>
+						<td align="center"><br>
+							<font size="5"><em>Crea le tue etichette</em></font>
+						</td>
+					</tr>
+				</table>
+        </center>
+	</div>
+</div>
+<br>
+
+<table align="center" border="0"><tr><td align="center">
+
+<ul id="indicator" align="center">
+	<li >1</li>
+	<li class="active">2</li>
+	<li>3</li>
+</ul>
+
+</td></tr></table>
+
 	<div data-role="footer" data-theme="a" align="center" data-position="fixed" data-tap-toggle="false" class="div1">
 		<table id="idfooter4" width="100%" align="center">
 			<td width="50%" align="center">

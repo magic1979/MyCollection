@@ -133,7 +133,7 @@ var app = {
 		if (localStorage.getItem("email") === null || localStorage.getItem("email")=="null" || typeof(localStorage.getItem("email")) == 'undefined' || localStorage.getItem("email")==0 || localStorage.getItem("email")=="") {
 			
 			if(isMobileScreenWidth < 768){
-				window.location.href = "testPHONE.html";
+				window.location.href = "testPHONEB.html";
 				$(".spinner").hide();
 				return;
 				
