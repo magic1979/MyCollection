@@ -24,6 +24,18 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
 		
+		$('#tiratura').focus(function(){
+			$("html, body").animate({
+				scrollTop: 100
+			}, 600);
+			//myScroll2.scrollToElement("#tiratura", "1s");
+		});
+		
+		$('#anno').focus(function(){
+			scrollTop: 100
+		});
+		
+		
 		var provenienza = getParameterByName('id');
 		
 		//ipad
@@ -566,13 +578,14 @@ function carica2(){
 			$('#valore2').focus(function(){
 			myScroll2.scrollToElement("#valore2", "1s");
 		});
-			$('#anno').focus(function(){
+		
+		/*$('#anno').focus(function(){
 			myScroll2.scrollToElement("#anno", "1s");
 		});
 		
 		$('#tiratura').focus(function(){
 			myScroll2.scrollToElement("#tiratura", "1s");
-		});
+		});*/
 	
 }
 
