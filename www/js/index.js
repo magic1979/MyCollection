@@ -535,7 +535,6 @@ function carica2(){
 	
 	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 	
-	document.body.style.height = screen.availHeight + 'px';
 		
 		$('#valore').focus(function(){
 			myScroll2.scrollToElement("#valore", "1s");
@@ -600,6 +599,8 @@ function carica3(){
 	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
 	
 	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	
+	cordova.plugins.Keyboard.show();
 }
 
 function carica4(){

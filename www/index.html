@@ -257,6 +257,28 @@
 			text-size-adjust: none;
 		}
 		
+		#scroller2 {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+			-webkit-transform: translateZ(0);
+			-moz-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+			-o-transform: translateZ(0);
+			transform: translateZ(0);
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			-webkit-text-size-adjust: none;
+			-moz-text-size-adjust: none;
+			-ms-text-size-adjust: none;
+			-o-text-size-adjust: none;
+			text-size-adjust: none;
+		}
+		
 		#scroller ul {
 			list-style: none;
 			padding: 0;
@@ -1182,7 +1204,7 @@ a {text-decoration:none;}
 		</div><!-- /page -->
 		
 		
-		<div id="page2" data-role="page" data-iscroll="enable">
+		<div id="page2" data-role="page">
 			<div data-role="header" data-theme="c" data-position="fixed" data-tap-toggle="false" class="div1">
 				<table align="center" width="100%" valign="center" border="0">
 					<tr>
@@ -1197,7 +1219,7 @@ a {text-decoration:none;}
 			<div class="spinner" id="spinner"></div>
 			
 			<div id="wrapper2">
-				<div id="scroller">
+				<div id="scroller2">
 					<center><br>
 						 <form name="formia2" action="entra.asp" method="post">
 							 
@@ -1317,7 +1339,6 @@ a {text-decoration:none;}
 				</form>
 				</div>
 			</div>
-
 			
 			<div id="footer2" data-position="fixed" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" style="display:none;position: absolute" data-transition="none">
 				<table id="idfooter4" width="100%" align="center">
@@ -1333,31 +1354,10 @@ a {text-decoration:none;}
 						</td>
 						<td width="25%" align="center">
 							<a href="#page0" onclick='javascript:listacollection2(2)'  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-grid" data-transition="slide">List</a>
-							<!--href="#mypanelA" onclick="javascript:listmonete()"-->
+
 						</td>
 					</tr>
 				</table>
-			</div>
-			
-			<div data-role="panel" id="mypanelA" data-position-fixed="true" data-position="right" data-display="overlay" width="100%" data-theme="b" style="overflow-y: scroll">
-				<div class="panel-wrapper">
-					
-				<center>
-					<img src="img/Logo.png" width="120px"><br><br><font color="#488354" size="3">Lista Monete</font>
-				</center>
-				<br>
-				
-					<table id="profile" border="0" width="90%">
-						<tr>
-							<td><div id="listamonete"></div></td>
-						</tr>
-						<tr>
-							<td><div id="risu"></div></td>
-						</tr>
-					</table>
-				</div>
-
-				
 			</div>
 			
 		</div><!-- /page -->
@@ -1458,14 +1458,10 @@ a {text-decoration:none;}
 						 
 					</form>
 					 <table height="60"><tr><td></td></tr></table>
-					</div>
-			</div>
-			
-			
-			
-			<div id="footer3" data-position="fixed" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" style="display:none;position: absolute" data-transition="none">
-				<table id="idfooter4" width="100%" align="center">
-					<tr>
+					 <br><br>
+					 
+					 <table id="idfooter4" width="100%" align="center">
+						<tr>
 						<td width="25%" align="center">
 							<a href="#page0" onclick='javascript:listacollection()' data-rel="back" data-transition="slidedown" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back">Back</a>
 						</td>
@@ -1482,7 +1478,14 @@ a {text-decoration:none;}
 						</td>
 					</tr>
 				</table>
+					</div>
 			</div>
+			
+			
+			
+			<!--<div id="footer3" data-position="fixed" data-role="footer" data-theme="b" data-tap-toggle="false" class="div1" style="display:none;position: absolute" data-transition="none">
+				
+			</div>-->
 			
 			<div data-role="panel" id="mypanelB" data-position-fixed="true" data-position="right" data-display="overlay" width="100%" data-theme="b" style="overflow-y: scroll">
 				<div class="panel-wrapper">
