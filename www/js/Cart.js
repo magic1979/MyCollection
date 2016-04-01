@@ -42,6 +42,10 @@ function onDeviceReady() {
 		$('#tiratura').focus(function(){
 			myScroll2.scrollToElement("#tiratura", "1s");
 		});
+		
+		$('#NomeRegalo').focus(function(){
+			myScroll2.scrollToElement("#NomeRegalo", "1s");
+		});
 	
 	
 	last_click_time = new Date().getTime();

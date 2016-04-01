@@ -532,11 +532,6 @@ function carica2(){
 		}, 700);
 
 	
-	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
-	
-	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-	
-		
 		$('#valore').focus(function(){
 			myScroll2.scrollToElement("#valore", "1s");
 		});
@@ -566,18 +561,23 @@ function carica2(){
 		});
 		
 		$('#valore2').focus(function(){
-			myScroll2.scrollTo('#valore2');
-			//myScroll2.scrollToElement("#valore2", "1s");
+			setTimeout (function(){
+				myScroll2.scrollToElement("#valore2", "1s");
+			}, 500);
 		});
 		
 		$('#anno').focus(function(){
-			window.location.href = "#anno";
-			//myScroll2.scrollToElement("#anno", "1s");
+			//window.location.href = "#anno";
+			myScroll2.scrollToElement("#anno", "1s");
 		});
 		
 		$('#tiratura').focus(function(){
 			myScroll2.scrollToElement("#tiratura", "1s");
 		});
+		
+		document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
+	
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 	
 }
 
