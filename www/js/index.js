@@ -622,6 +622,48 @@ function carica3(){
 				}, 500);
 	}, 700);
 	
+		$('#nomecollezione').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#nomecollezione", "1s");
+			}, 500);
+		});
+		$('#marca').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#marca", "1s");
+			}, 500);
+		});
+		$('#meccanismo').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#meccanismo", "1s");
+			}, 500);
+		});
+		$('#materialecassa').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#materialecassa", "1s");
+			}, 500);
+		});
+		$('#materialevetro').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#materialevetro", "1s");
+			}, 500);
+		});
+		$('#materialecinturino').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#materialecinturino", "1s");
+			}, 500);
+		});
+		$('#prezzo').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#prezzo", "1s");
+			}, 500);
+		});
+			$('#tiraturaqp').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#tiraturaqp", "1s");
+			}, 500);
+		});
+			
+
 	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
 	
 	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
@@ -648,6 +690,71 @@ function carica4(){
 					$("#footer4").fadeIn();
 				}, 500);
 	}, 700);
+	
+		$('#titolo').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#titolo", "1s");
+			}, 500);
+		});
+		$('#autore').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#autore", "1s");
+			}, 500);
+		});
+		
+		$('#quotazione').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#quotazione", "1s");
+			}, 500);
+		});
+		
+		$('#provenienza').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#provenienza", "1s");
+			}, 500);
+		});
+		
+		$('#iscrizione').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#iscrizione", "1s");
+			}, 500);
+		});
+		
+		$('#firme').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#firme", "1s");
+			}, 500);
+		});
+		
+		$('#esposto').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#esposto", "1s");
+			}, 500);
+		});
+		
+		$('#dove').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#dove", "1s");
+			}, 500);
+		});
+		
+		$('#linkautore').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#linkautore", "1s");
+			}, 500);
+		});
+		
+		$('#linkpubblicazine').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#linkpubblicazine", "1s");
+			}, 500);
+		});
+		
+		$('#dimensioni').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#dimensioni", "1s");
+			}, 500);
+		});
 	
 	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
 	
@@ -678,6 +785,42 @@ function carica6(){
 		myScroll6.refresh();
 	}, 700);
 	
+		$('#marcaC').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#marcaC", "1s");
+			}, 500);
+		});
+		$('#meccanismoC').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#meccanismoC", "1s");
+			}, 500);
+		});
+		$('#materialecassaC').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#materialecassaC", "1s");
+			}, 500);
+		});
+		$('#materialevetroC').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#materialevetroC", "1s");
+			}, 500);
+		});
+		$('#materialecinturinoC').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#materialecinturinoC", "1s");
+			}, 500);
+		});
+		$('#prezzoC').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#prezzoC", "1s");
+			}, 500);
+		});
+			$('#tiraturaqpC').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#tiraturaqpC", "1s");
+			}, 500);
+		});
+	
 	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
 	
 	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
@@ -693,6 +836,70 @@ function carica7(){
 				myScroll7.refresh();
 	}, 700);
 	
+		$('#valoreB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#valoreB", "1s");
+			}, 500);
+		});
+		$('#materialeB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#materialeB", "1s");
+			}, 500);
+		});
+		$('#descrizioneFB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#descrizioneFB", "1s");
+			}, 500);
+		});
+		$('#descrizioneRB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#descrizioneRB", "1s");
+			}, 500);
+		});
+		$('#descrizioneBB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#descrizioneBB", "1s");
+			}, 500);
+		});
+		$('#raritaB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#raritaB", "1s");
+			}, 500);
+		});
+		$('#possedutaB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#possedutaB", "1s");
+			}, 500);
+		});
+			$('#dimensioneB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#dimensioneB", "1s");
+			}, 500);
+		});
+			$('#statoconservazioneB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#statoconservazioneB", "1s");
+			}, 500);
+		});
+		
+		$('#valore2B').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#valore2B", "1s");
+			}, 500);
+		});
+		
+		$('#annoB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#annoB", "1s");
+			}, 500);
+		});
+		
+		$('#tiraturaB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#tiraturaB", "1s");
+			}, 500);
+		});
+	
 	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
 	
 	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
@@ -707,6 +914,67 @@ function carica8(){
 	setTimeout (function(){
 				myScroll8.refresh();
 	}, 700);
+	
+
+		$('#autoreD').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#autoreD", "1s");
+			}, 500);
+		});
+		
+		$('#quotazioneD').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#quotazioneD", "1s");
+			}, 500);
+		});
+		
+		$('#provenienzaD').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#provenienzaD", "1s");
+			}, 500);
+		});
+		
+		$('#iscrizioneD').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#iscrizioneD", "1s");
+			}, 500);
+		});
+		
+		$('#firmeD').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#firmeD", "1s");
+			}, 500);
+		});
+		
+		$('#espostoD').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#espostoD", "1s");
+			}, 500);
+		});
+		
+		$('#doveD').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#doveD", "1s");
+			}, 500);
+		});
+		
+		$('#linkautoreD').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#linkautoreD", "1s");
+			}, 500);
+		});
+		
+		$('#linkpubblicazineD').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#linkpubblicazineD", "1s");
+			}, 500);
+		});
+		
+		$('#dimensioneD').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#dimensioneD", "1s");
+			}, 500);
+		});
 	
 	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
 	
@@ -753,6 +1021,84 @@ function carica11(){
 	setTimeout (function(){
 		myScroll11.refresh();
 	}, 700);
+	
+		$('#valoreAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#valoreAA", "1s");
+			}, 500);
+		});
+		$('#provenienzaAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#provenienzaAA", "1s");
+			}, 500);
+		});
+		$('#materialeAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#materialeAA", "1s");
+			}, 500);
+		});
+		$('#descrizioneFAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#descrizioneFAA", "1s");
+			}, 500);
+		});
+		$('#descrizioneRAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#descrizioneRAA", "1s");
+			}, 500);
+		});
+		$('#descrizioneBAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#descrizioneBAA", "1s");
+			}, 500);
+		});
+		$('#tiraturaAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#tiraturaAA", "1s");
+			}, 500);
+		});
+			$('#raritaAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#raritaAA", "1s");
+			}, 500);
+		});
+			$('#possedutaAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#possedutaAA", "1s");
+			}, 500);
+		});
+		
+		$('#dimensioneAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#dimensioneAA", "1s");
+			}, 500);
+		});
+		
+		$('#statoconservazioneAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#statoconservazioneAA", "1s");
+			}, 500);
+		});
+		
+		$('#valore2AA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#valore2AA", "1s");
+			}, 500);
+		});
+		
+		$('#annoAA').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#annoAA", "1s");
+			}, 500);
+		});
+		
+		
+		
+		$('#tiraturaB').focus(function(){
+			setTimeout (function(){
+				myScroll2.scrollToElement("#tiraturaB", "1s");
+			}, 500);
+		});
 	
 	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 300); }, false);
 	
