@@ -149,308 +149,417 @@ var app = {
 		
 		//bottoni
 		
-		$(document).on("touchstart", "#page00", function(e){
+		$(document).on("touchend", "#page000", function(e){
 			window.location.href = "#page00";
+			if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 			carica00()
 		});
-		$(document).on("touchstart", "#page0", function(e){
+		$(document).on("touchend", "#listac", function(e){
 					   window.location.href = "#page0";
 					   listacollection()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#imgmail", function(e){
+		$(document).on("touchend", "#imgmail", function(e){
 					   infomail()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#infoemail", function(e){
+		$(document).on("touchend", "#infoemail", function(e){
 					   infomail()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#riparti", function(e){
+		$(document).on("touchend", "#riparti", function(e){
 					   riparti()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#mypage", function(e){
+		$(document).on("touchend", "#mypage", function(e){
 					   window.location.href = "#page5";
 					   menu()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#myhome", function(e){
+		$(document).on("touchend", "#myhome", function(e){
 					   window.location.href = "index.html";
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#myesci", function(e){
+		$(document).on("touchend", "#myesci", function(e){
 					   logout()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#listac", function(e){
+		$(document).on("touchend", "#listac", function(e){
 					   listacollection()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		//pag00
 		
-		$(document).on("touchstart", "#creanuova", function(e){
+		$(document).on("touchend", "#creanuova", function(e){
 			vai()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
-		$(document).on("touchstart", "#riparti2", function(e){
+		$(document).on("touchend", "#riparti2", function(e){
 			riparti()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
-		$(document).on("touchstart", "#mypage00", function(e){
+		$(document).on("touchend", "#mypage00", function(e){
 			window.location.href = "#page5";
 			menu()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
-		$(document).on("touchstart", "#myesci00", function(e){
+		$(document).on("touchend", "#myesci00", function(e){
 			logout()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
 		
-		$(document).on("touchstart", "#back00", function(e){
-			$.mobile.changePage( "#page", { transition: "slide", changeHash: false, reverse: true });
+		$(document).on("touchend", "#back00", function(e){
+			window.location.href = "#page";
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
 		
 		//page0
 		
-		$(document).on("touchstart", "#back0", function(e){
-					   $.mobile.changePage( "#page", { transition: "slide", changeHash: false, reverse: true });
-					   });
+		$(document).on("touchend", "#back0", function(e){
+		 window.location.href = "#page";
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+		});
 		
-		$(document).on("touchstart", "#mypage0", function(e){
-					   window.location.href = "#page5";
-					   menu()
-					   });
-		$(document).on("touchstart", "#myesci0", function(e){
+		$(document).on("touchend", "#mypage0", function(e){
+			window.location.href = "#page5";
+			menu()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+		 });
+		 
+		$(document).on("touchend", "#myesci0", function(e){
 					   logout()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		//page2
 		
-		$(document).on("touchstart", "#radio1", function(e){
+		$(document).on("touchend", "#radio1", function(e){
 					   prendi()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#radio2", function(e){
+		$(document).on("touchend", "#radio2", function(e){
 					   prendi2()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#radio3", function(e){
+		$(document).on("touchend", "#radio3", function(e){
 					   prendi3()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#back2", function(e){
-					   $.mobile.changePage( "#page0", { transition: "slide", changeHash: false, reverse: true });
+		$(document).on("touchend", "#back2", function(e){
+					   window.location.href = "#page0";
 					   listacollection()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#salvamonete2", function(e){
+		$(document).on("touchend", "#salvamonete2", function(e){
 					   salvamonete()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#nuovamonete2", function(e){
+		$(document).on("touchend", "#nuovamonete2", function(e){
 					   nuovamonete()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#list2", function(e){
+		$(document).on("touchend", "#list2", function(e){
 					   $.mobile.changePage( "#page0", { transition: "slide", changeHash: false });
 					   listacollection2(2)
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		//page3
 		
-		$(document).on("touchstart", "#radio4", function(e){
+		$(document).on("touchend", "#radio4", function(e){
 					   prendi4()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#radio5", function(e){
+		$(document).on("touchend", "#radio5", function(e){
 					   prendi5()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#radio6", function(e){
+		$(document).on("touchend", "#radio6", function(e){
 					   prendi6()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#back3", function(e){
-					   $.mobile.changePage( "#page0", { transition: "slide", changeHash: false, reverse: true });
+		$(document).on("touchend", "#back3", function(e){
+					  window.location.href = "#page0";
 					   listacollection()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#salvaorologi3", function(e){
+		$(document).on("touchend", "#salvaorologi3", function(e){
 					   salvaorologi()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#nuovaorologi3", function(e){
+		$(document).on("touchend", "#nuovaorologi3", function(e){
 					   nuovaorologi()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#list3", function(e){
+		$(document).on("touchend", "#list3", function(e){
 					   $.mobile.changePage( "#page0", { transition: "slide", changeHash: false });
 					   listacollection2(1)
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		//page4
 		
-		$(document).on("touchstart", "#radio7", function(e){
+		$(document).on("touchend", "#radio7", function(e){
 					   prendi7()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#radio8", function(e){
+		$(document).on("touchend", "#radio8", function(e){
 					   prendi8()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#radio9", function(e){
+		$(document).on("touchend", "#radio9", function(e){
 					   prendi9()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#back4", function(e){
-					   $.mobile.changePage( "#page0", { transition: "slide", changeHash: false, reverse: true });
+		$(document).on("touchend", "#back4", function(e){
+					   window.location.href = "#page0";
 					   listacollection()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#salvaquadri4", function(e){
+		$(document).on("touchend", "#salvaquadri4", function(e){
 					   salvaquadri()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#nuovaquadri4", function(e){
+		$(document).on("touchend", "#nuovaquadri4", function(e){
 					   nuovaquadri()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#list4", function(e){
+		$(document).on("touchend", "#list4", function(e){
 					   $.mobile.changePage( "#page0", { transition: "slide", changeHash: false });
 					   listacollection2(3)
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 
 		//page5
 		
 		
-		$(document).on("touchstart", "#myhome5", function(e){
+		$(document).on("touchend", "#myhome5", function(e){
 			window.location.href = "index.html";
+			if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
 		
-		$(document).on("touchstart", "#mypage5", function(e){
+		$(document).on("touchend", "#mypage5", function(e){
 			window.location.href = "#page5";
 			menu()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
-		$(document).on("touchstart", "#myesci5", function(e){
+		$(document).on("touchend", "#myesci5", function(e){
 			logout()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
 		
 		
 		//page6
 		
-		$(document).on("touchstart", "#back6", function(e){
+		$(document).on("touchend", "#back6", function(e){
 					   $.mobile.changePage( "#", { transition: "slide", changeHash: false, reverse: true });
 					   listacollection()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 
 		
-		$(document).on("touchstart", "#myhome6", function(e){
+		$(document).on("touchend", "#myhome6", function(e){
 					   window.location.href = "index.html";
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 
-		$(document).on("touchstart", "#myesci6", function(e){
+		$(document).on("touchend", "#myesci6", function(e){
 					   logout()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
+		
+		$(document).on("touchend", "#aggiorna6", function(e){
+			aggiornaorologi()
+			if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+		});
+		
+		$(document).on("touchend", "#stampa6", function(e){
+					   stampaorologi()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+					   });
+		
 		
 		//page7
 		
-		$(document).on("touchstart", "#back7", function(e){
+		$(document).on("touchend", "#back7", function(e){
 					   $.mobile.changePage( "#", { transition: "slide", changeHash: false, reverse: true });
 					   listacollection()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		
-		$(document).on("touchstart", "#myhome7", function(e){
+		$(document).on("touchend", "#myhome7", function(e){
 					   window.location.href = "index.html";
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		
-		$(document).on("touchstart", "#myesci7", function(e){
+		$(document).on("touchend", "#myesci7", function(e){
 					   logout()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
+		
+		$(document).on("touchend", "#aggiorna7", function(e){
+					   aggiornamonete()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+					   });
+		
+		$(document).on("touchend", "#stampa7", function(e){
+					   stampamonete()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+					   });
+		
 		
 		//page8
 		
-		$(document).on("touchstart", "#back8", function(e){
+		$(document).on("touchend", "#back8", function(e){
 					   $.mobile.changePage( "#", { transition: "slide", changeHash: false, reverse: true });
 					   listacollection()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		
-		$(document).on("touchstart", "#myhome8", function(e){
+		$(document).on("touchend", "#myhome8", function(e){
 					   window.location.href = "index.html";
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		
-		$(document).on("touchstart", "#myesci8", function(e){
+		$(document).on("touchend", "#myesci8", function(e){
 					   logout()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+					   });
+		
+		$(document).on("touchend", "#aggiorna8", function(e){
+					   aggiornaquadri()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+					   });
+		
+		$(document).on("touchend", "#stampa8", function(e){
+					   stampaquadri()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		//page9
 		
-		$(document).on("touchstart", "#back9", function(e){
+		$(document).on("touchend", "#back9", function(e){
 			$.mobile.changePage( "#page00", { transition: "slide", changeHash: false, reverse: true });
 			carica00()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
 		
 		
-		$(document).on("touchstart", "#salvaaltro9", function(e){
+		$(document).on("touchend", "#salvaaltro9", function(e){
 			salvaaltro();
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
 		
 		
-		$(document).on("touchstart", "#list9", function(e){
+		$(document).on("touchend", "#list9", function(e){
 			$.mobile.changePage( "#page0", { transition: "slide", changeHash: false });
 			listacollection2(4)
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
 		
 		
 		//page10
 		
-		$(document).on("touchstart", "#back10", function(e){
+		$(document).on("touchend", "#back10", function(e){
 			window.location.href = "#page5";
 			menu()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
 		
 		
-		$(document).on("touchstart", "#myhome10", function(e){
+		$(document).on("touchend", "#myhome10", function(e){
 			window.location.href = "index.html";
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
 		
 		
-		$(document).on("touchstart", "#myesci10", function(e){
+		$(document).on("touchend", "#myesci10", function(e){
 			logout()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 		});
 		
 		//page11
 		
-		$(document).on("touchstart", "#radio10", function(e){
+		$(document).on("touchend", "#radio10", function(e){
 					   prendi10()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#radio11", function(e){
+		$(document).on("touchend", "#radio11", function(e){
 					   prendi11()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
-		$(document).on("touchstart", "#radio12", function(e){
+		$(document).on("touchend", "#radio12", function(e){
 					   prendi12()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#back11", function(e){
+		$(document).on("touchend", "#back11", function(e){
 					   $.mobile.changePage( "#page9", { transition: "slide", changeHash: false, reverse: true });
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#salva11", function(e){
+		$(document).on("touchend", "#salva11", function(e){
 					   salvaaltro2()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#newaltro", function(e){
+		$(document).on("touchend", "#newaltro", function(e){
 					   nuovaaltro()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
-		$(document).on("touchstart", "#list11", function(e){
+		$(document).on("touchend", "#list11", function(e){
 					   $.mobile.changePage( "#page0", { transition: "slide", changeHash: false });
 					   listacollection2(4)
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 
 		//page12
 		
-		$(document).on("touchstart", "#back12", function(e){
+		$(document).on("touchend", "#back12", function(e){
 					   //window.location.href = "#page5";
 					   listacollection()()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		
-		$(document).on("touchstart", "#myhome12", function(e){
+		$(document).on("touchend", "#myhome12", function(e){
 					   window.location.href = "index.html";
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		
-		$(document).on("touchstart", "#myesci12", function(e){
+		$(document).on("touchend", "#myesci12", function(e){
 					   logout()
+					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+					   });
+		
+		$(document).on("touchend", "#aggiorna12", function(e){
+					   aggiornaaltro()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+					   });
+		
+		$(document).on("touchend", "#stampa12", function(e){
+					   stampaaltro()
+					   if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
 		
@@ -3306,6 +3415,61 @@ function salvaaltro2() {
 	
 }
 
+function stampaaltro() {
+	//alert(self.document.formia7.idB.value)
+	
+	$(".spinner").show();
+	$.ajax({
+		   type:"GET",
+		   url:"http://www.gtechplay.com/mycollection/www/Check_Stampa.asp",
+		   contentType: "application/json",
+		   data: {id:self.document.formia12.idBA.value,Categoria:"Altro",email:localStorage.getItem("email")},
+		   timeout: 7000,
+		   jsonp: 'callback',
+		   crossDomain: true,
+		   success:function(result){
+		   
+		   $.each(result, function(i,item){
+				  
+				  if (item.ID != 0){
+				  navigator.notification.alert(
+											   'Stampa inviata via email',  // message
+											   alertDismissed,         // callback
+											   'STAMPA',            // title
+											   'Done'                  // buttonName
+											   );
+				  
+				  }
+				  else{
+				  navigator.notification.alert(
+											   'Credenziali non corrette',  // message
+											   alertDismissed,         // callback
+											   'Attenzione',            // title
+											   'Done'                  // buttonName@
+											   );
+				  }
+				  });
+		   
+		   setTimeout (function(){
+					   $(".spinner").hide();
+					   }, 2000);
+		   
+		   },
+		   error: function(){
+		   $(".spinner").hide();
+		   
+		   navigator.notification.alert(
+										'Possibile errore di rete, riprova tra qualche minuto',  // message
+										alertDismissed,         // callback
+										'Attenzione',            // title
+										'Done'                  // buttonName
+										);
+		   
+		   },
+		   dataType:"jsonp"});
+}
+
+
 function aggiornaaltro() {
 	if (self.document.formia12.nomeBA.value == "") {
 		navigator.notification.alert(
@@ -3401,9 +3565,10 @@ function listmonete() {
 				  var cosa = 2
 				  $('#risu').append('<br><a id="lm'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella111"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="20" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.NomeMonete +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td></tr></table></a>');
 				  
-				  $(document).on("touchstart", "#lm"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#lm"+ item.ID +"", function(e){
 								 window.location.href = "#page10";
-								 mieschede('+ cosa +','+ item.ID +');
+								 mieschede(cosa,item.ID);
+								  if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 				   //<br><a href="#page7" onclick="javascript:loadmodello('+ cosa +','+ item.ID +')" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="20" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.NomeMonete +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td></tr></table></a>
@@ -3480,9 +3645,10 @@ function listquadri() {
 				  
 				  //<br><a href="#page10" onclick="javascript:mieschede('+ cosa +','+ item.ID +')" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella111"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="20" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.NomeMonete +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td></tr></table></a>
 				  
-				  $(document).on("touchstart", "#lq"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#lq"+ item.ID +"", function(e){
 								 window.location.href = "#page8";
-								 mieschede('+ cosa +','+ item.ID +');
+								mieschede(cosa,item.ID);
+								  if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 				  }
@@ -3553,9 +3719,10 @@ function listorologi() {
 				  
 				  //<br><a href="#page8" onclick="javascript:mieschede('+ cosa +','+ item.ID +')" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella111"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="20" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.NomeQuadri +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Quotazione +')</font></td></tr></table></a>
 				  
-				  $(document).on("touchstart", "#lo"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#lo"+ item.ID +"", function(e){
 								 window.location.href = "#page6";
-								 mieschede('+ cosa +','+ item.ID +');
+								 mieschede(cosa,item.ID);
+								  if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 				  }
@@ -3626,9 +3793,10 @@ function listaltro() {
 				  
 				  //<br><a href="#page6" onclick="javascript:mieschede('+ cosa +','+ item.ID +')" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella111"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="20" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.NomeOrologi +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Prezzo +')</font></td></tr></table></a>
 				  
-				  $(document).on("touchstart", "#la"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#la"+ item.ID +"", function(e){
 						window.location.href = "#page12";
-						mieschede('+ cosa +','+ item.ID +');
+						mieschede(cosa,item.ID);
+								  if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					});
 				  
 				  }
@@ -3826,8 +3994,9 @@ function listacollection() {
 				  if (item.Modello=="Monete"){
 					$('#listacollezione').append('<br><a id="lcm'+ item.ID +'" href="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/plusW.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="visioneN">&nbsp;'+ item.ContaMonete +'&nbsp;</font><font class="arancio">' + item.Modello + '</font></td></tr></table></a>')
 				  
-				  $(document).on("touchstart", "#lcm"+ item.ID +"", function(e){
-						vaimodello('+ item.ID +');
+				  $(document).on("touchend", "#lcm"+ item.ID +"", function(e){
+						vaimodello(item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					});
 				  
 					listaschede(2,item.ID)
@@ -3835,8 +4004,9 @@ function listacollection() {
 				  else if (item.Modello=="Orologi"){
 					$('#listacollezione').append('<br><a id="lco'+ item.ID +'" href="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/plusW.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="visioneN">&nbsp;'+ item.ContaOrologi +'&nbsp;</font><font class="arancio">' + item.Modello + '</font></td></tr></table></a>')
 				  
-				  $(document).on("touchstart", "#lco"+ item.ID +"", function(e){
-								 vaimodello('+ item.ID +');
+				  $(document).on("touchend", "#lco"+ item.ID +"", function(e){
+								 vaimodello(item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 					listaschede(1,item.ID)
@@ -3844,8 +4014,9 @@ function listacollection() {
 				  else if (item.Modello=="Quadri"){
 					$('#listacollezione').append('<br><a id="lcq'+ item.ID +'" href="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/plusW.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="visioneN">&nbsp;'+ item.ContaQuadri +'&nbsp;</font><font class="arancio">' + item.Modello + '</font></td></tr></table></a>')
 				  
-				  $(document).on("touchstart", "#lcq"+ item.ID +"", function(e){
-								 vaimodello('+ item.ID +');
+				  $(document).on("touchend", "#lcq"+ item.ID +"", function(e){
+								 vaimodello(item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 				    listaschede(3,item.ID)
@@ -3853,8 +4024,9 @@ function listacollection() {
 				  else{
 					$('#listacollezione').append('<br><a id="lca'+ item.ID +'" href="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/plusW.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="visioneN">&nbsp;'+ item.ContaAltro +'&nbsp;</font><font class="arancio">' + item.Modello + '</font></td></tr></table></a>')
 				  
-				  $(document).on("touchstart", "#lca"+ item.ID +"", function(e){
-								 vaimodello('+ item.ID +');
+				  $(document).on("touchend", "#lca"+ item.ID +"", function(e){
+								 vaimodello(item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 					listaschede(4,item.ID)
@@ -3936,9 +4108,10 @@ function listaschede(modello,idmodello){
 				  $('#risultato2').append('<br><a id="ls6'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Nome + '('+ item.Valore +')</font></td></tr></table></a>');
 				  //$("#NomeCollez10").html("<font size='3'><b>" + item.Nome + "</b></font>"); <a href="#page6" onclick="javascript:loadmodello('+ cosa +','+ item.ID +')" data-transition="slide"><img src="img/plus.png" width="28px"><font size="3" color="#000">- ' + item.NomeCollezione + ' </font><font size="1" color="orange">' + item.Nome + '('+ item.Valore +')</font></a>
 				  
-				  $(document).on("touchstart", "#ls6"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#ls6"+ item.ID +"", function(e){
 								 window.location.href = "#page6";
-								 loadmodello('+ cosa +','+ item.ID +');
+								 loadmodello(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 
 				  }
@@ -3947,9 +4120,10 @@ function listaschede(modello,idmodello){
 				  $('#risultato2').append('<br><a id="ls7'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Nome + '('+ item.Valore +')</font></td></tr></table></a>');
 				  //$("#NomeCollez10").html("<font size='3'><b>" + item.Nome + "</b></font>");
 				  
-				  $(document).on("touchstart", "#ls7"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#ls7"+ item.ID +"", function(e){
 								 window.location.href = "#page7";
-								 loadmodello('+ cosa +','+ item.ID +');
+								 loadmodello(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 				  }
@@ -3958,9 +4132,10 @@ function listaschede(modello,idmodello){
 				  $('#risultato2').append('<br><a id="ls8'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="45%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="25%"><font class="arancio">' + item.Nome + '('+ item.Valore +')</font></td></tr></table></a>');
 				  //$("#NomeCollez10").html("<font size='3'><b>" + item.Nome + "</b></font>");
 				  
-				  $(document).on("touchstart", "#ls8"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#ls8"+ item.ID +"", function(e){
 								 window.location.href = "#page8";
-								 loadmodello('+ cosa +','+ item.ID +');
+								 loadmodello(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 				  }
@@ -3969,9 +4144,10 @@ function listaschede(modello,idmodello){
 				  $('#risultato2').append('<br><a id="ls12'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Nome + '('+ item.Valore +')</font></td></tr></table></a>');
 				  //$("#NomeCollez10").html("<font size='3'><b>" + item.Nome + "</b></font>");
 				  
-				  $(document).on("touchstart", "#ls12"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#ls12"+ item.ID +"", function(e){
 								 window.location.href = "#page12";
-								 loadmodello('+ cosa +','+ item.ID +');
+								 loadmodello(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 				  }
@@ -4543,40 +4719,44 @@ function menu(){
 				  if(item.Modello=="Orologi"){
 					cosa=1
 				  
-				    $('#movie-list').append('<br><a id="menu'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Modello + '</font></td></tr></table></a>');
+				    $('#movie-list').append('<br><a id="menuo'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Modello + '</font></td></tr></table></a>');
 				  
-				  $(document).on("touchstart", "#menu10"+ item.ID +"", function(e){
-								 window.location.href = "#page10";
-								 mieschede('+ cosa +','+ item.ID +');
-								 });
+				  $(document).on("touchend", "#menuo"+ item.ID +"", function(e){
+						window.location.href = "#page10";
+						mieschede(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+					});
 				  }
 				  else if(item.Modello=="Monete"){
 				    cosa=2
-					$('#movie-list').append('<br><a id="menu'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Modello + '</font></td></tr></table></a>');
+					$('#movie-list').append('<br><a id="menum'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Modello + '</font></td></tr></table></a>');
 				  
-				  $(document).on("touchstart", "#menu10"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#menum"+ item.ID +"", function(e){
 					window.location.href = "#page10";
-					mieschede('+ cosa +','+ item.ID +');
+					mieschede(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 				  });
 				  
 				  }
 				  else if(item.Modello=="Quadri"){
 					cosa=3
-					$('#movie-list').append('<br><a id="menu'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Modello + '</font></td></tr></table></a>');
+					$('#movie-list').append('<br><a id="menuq'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Modello + '</font></td></tr></table></a>');
 				  
-				  $(document).on("touchstart", "#menu10"+ item.ID +"", function(e){
-								 window.location.href = "#page10";
-								 mieschede('+ cosa +','+ item.ID +');
-								 });
+				  $(document).on("touchend", "#menuq"+ item.ID +"", function(e){
+						window.location.href = "#page10";
+						mieschede(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+					});
 				  }
 				  else{
 				  cosa=4
-				  $('#movie-list').append('<br><a id="menu'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Modello + '</font></td></tr></table></a>');
+				  $('#movie-list').append('<br><a id="menua'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Modello + '</font></td></tr></table></a>');
 				  
-				  $(document).on("touchstart", "#menu10"+ item.ID +"", function(e){
-								 window.location.href = "#page10";
-								 mieschede('+ cosa +','+ item.ID +');
-								 });
+				  $(document).on("touchend", "#menua"+ item.ID +"", function(e){
+						window.location.href = "#page10";
+						mieschede(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+					});
 				  }
 				  
 					
@@ -4674,15 +4854,17 @@ function mieschede(modello,idmodello){
 				  cosa=1
 				  $('#movie-list2').append('<br><a id="ms6'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
-				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
+				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli6"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  
-				  $(document).on("touchstart", "#ms6"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#ms6"+ item.ID +"", function(e){
 					 window.location.href = "#page6";
-					 loadmodello('+ cosa +','+ item.ID +');
+					 loadmodello(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 				  });
 				  
-				  $(document).on("touchstart", "#eli"+ item.ID +"", function(e){
-						eliminacollezione("+ cosa +","+ idmodello +")
+				  $(document).on("touchend", "#eli6"+ item.ID +"", function(e){
+						eliminacollezione(cosa,idmodello)
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 				   });
 				  
 				  
@@ -4691,15 +4873,17 @@ function mieschede(modello,idmodello){
 				  cosa=2
 				  $('#movie-list2').append('<br><a id="ms7'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
-				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
+				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli7"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  
-				  $(document).on("touchstart", "#ms7"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#ms7"+ item.ID +"", function(e){
 								 window.location.href = "#page7";
-								 loadmodello('+ cosa +','+ item.ID +');
+								 loadmodello(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
-				  $(document).on("touchstart", "#eli"+ item.ID +"", function(e){
-								 eliminacollezione("+ cosa +","+ idmodello +")
+				  $(document).on("touchend", "#eli7"+ item.ID +"", function(e){
+								eliminacollezione(cosa,idmodello)
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 				  }
@@ -4707,15 +4891,17 @@ function mieschede(modello,idmodello){
 				  cosa=3
 				  $('#movie-list2').append('<br><a id="ms8'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
-				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
+				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli8"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  
-				  $(document).on("touchstart", "#ms8"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#ms8"+ item.ID +"", function(e){
 								 window.location.href = "#page8";
-								 loadmodello('+ cosa +','+ item.ID +');
+								loadmodello(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
-				  $(document).on("touchstart", "#eli"+ item.ID +"", function(e){
-								 eliminacollezione("+ cosa +","+ idmodello +")
+				  $(document).on("touchend", "#eli8"+ item.ID +"", function(e){
+								 eliminacollezione(cosa,idmodello)
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 				  }
@@ -4723,15 +4909,17 @@ function mieschede(modello,idmodello){
 				  cosa=4
 				  $('#movie-list2').append('<br><a id="ms12'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
-				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
+				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli12"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  
-				  $(document).on("touchstart", "#ms12"+ item.ID +"", function(e){
+				  $(document).on("touchend", "#ms12"+ item.ID +"", function(e){
 								 window.location.href = "#page12";
-								 loadmodello('+ cosa +','+ item.ID +');
+								 loadmodello(cosa,item.ID);
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
-				  $(document).on("touchstart", "#eli"+ item.ID +"", function(e){
-								 eliminacollezione("+ cosa +","+ idmodello +")
+				  $(document).on("touchend", "#eli12"+ item.ID +"", function(e){
+								eliminacollezione(cosa,idmodello)
+								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
 				  
 				  }
@@ -4739,7 +4927,7 @@ function mieschede(modello,idmodello){
 				  }
 				  else{
 				  navigator.notification.alert(
-											   'Recupero fallito, riprova in seguito',  // message
+											   'Recupero fallito, riprova dopo',  // message
 											   alertDismissed,         // callback
 											   'Errore Recupero',      // title
 											   'OK'                  // buttonName
