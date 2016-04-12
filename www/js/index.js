@@ -4672,7 +4672,7 @@ function mieschede(modello,idmodello){
 				   })*/
 				  
 				  cosa=1
-				  $('#movie-list2').append('<br><a id="ms6'item.ID'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
+				  $('#movie-list2').append('<br><a id="ms6'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
 				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  
@@ -4689,7 +4689,7 @@ function mieschede(modello,idmodello){
 				  }
 				  else if(item.Modello=="Monete"){
 				  cosa=2
-				  $('#movie-list2').append('<br><a id="ms7'item.ID'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
+				  $('#movie-list2').append('<br><a id="ms7'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
 				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  
@@ -4705,7 +4705,7 @@ function mieschede(modello,idmodello){
 				  }
 				   else if(item.Modello=="Quadri"){
 				  cosa=3
-				  $('#movie-list2').append('<br><a id="ms8'item.ID'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
+				  $('#movie-list2').append('<br><a id="ms8'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
 				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  
@@ -4721,7 +4721,7 @@ function mieschede(modello,idmodello){
 				  }
 				  else{
 				  cosa=4
-				  $('#movie-list2').append('<br><a id="ms12'item.ID'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
+				  $('#movie-list2').append('<br><a id="ms12'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
 				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  

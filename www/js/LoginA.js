@@ -2,6 +2,8 @@ document.addEventListener('deviceready', onDeviceReady, false);
 
 function onDeviceReady() {
 	
+			
+	
 	 $(document).on('swipeleft', '.ui-page', function(event){
 		  if(event.handled !== true) // This will prevent event triggering more then once
 		  {
@@ -26,6 +28,50 @@ function onDeviceReady() {
 		 }
 		 return false;
 	    });
+		
+		$(document).on("touchstart", "#iscriviti", function(e){
+			window.location.href = "#page6";
+		});
+		
+		$(document).on("touchstart", "#accedi", function(e){
+			window.location.href = "#page4";
+		});
+		
+		$(document).on("touchstart", "#iscriviti1", function(e){
+			window.location.href = "#page6";
+		});
+		
+		$(document).on("touchstart", "#accedi1", function(e){
+			window.location.href = "#page4";
+		});
+		
+		$(document).on("touchstart", "#iscriviti2", function(e){
+			window.location.href = "#page6";
+		});
+		
+		$(document).on("touchstart", "#accedi2", function(e){
+			window.location.href = "#page4";
+		});
+		
+		$(document).on("touchstart", "#accedi0", function(e){
+			login();
+		});
+		
+		$(document).on("touchstart", "#pass", function(e){
+			EmailDimenticata();
+		});
+		
+		$(document).on("touchstart", "#iscr", function(e){
+			window.location.href = "#page6";
+		});
+		
+		$(document).on("touchstart", "#iscriviti0", function(e){
+			iscriviti();
+		});
+		
+		$(document).on("touchstart", "#acc", function(e){
+			window.location.href = "#page4";
+		});
 	
 	
 	//document.addEventListener("resume", onResume, false);
