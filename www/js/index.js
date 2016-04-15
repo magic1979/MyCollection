@@ -535,7 +535,7 @@ var app = {
 		
 		$(document).on("touchend", "#back12", function(e){
 					   //window.location.href = "#page5";
-					   listacollection()()
+					   listacollection()
 					    if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					   });
 		
@@ -2139,7 +2139,7 @@ function prendi4(){
 	navigator.camera.getPicture(Successo4, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 150,
+								targetWidth: 130,
 								targetHeight: 150
 								});
 }
@@ -2163,7 +2163,7 @@ function prendi5(){
 	navigator.camera.getPicture(Successo5, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 150,
+								targetWidth: 130,
 								targetHeight: 150
 								});
 }
@@ -2186,7 +2186,7 @@ function prendi6(){
 	navigator.camera.getPicture(Successo6, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 150,
+								targetWidth: 130,
 								targetHeight: 150
 								});
 }
@@ -2209,7 +2209,7 @@ function prendi7(){
 	navigator.camera.getPicture(Successo7, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 150,
+								targetWidth: 130,
 								targetHeight: 150
 								});
 }
@@ -2232,7 +2232,7 @@ function prendi8(){
 	navigator.camera.getPicture(Successo8, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 150,
+								targetWidth: 130,
 								targetHeight: 150
 								});
 }
@@ -2256,7 +2256,7 @@ function prendi9(){
 	navigator.camera.getPicture(Successo9, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 150,
+								targetWidth: 130,
 								targetHeight: 150
 								});
 }
@@ -2279,7 +2279,7 @@ function prendi10(){
 	navigator.camera.getPicture(Successo10, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 150,
+								targetWidth: 130,
 								targetHeight: 150
 								});
 }
@@ -2302,7 +2302,7 @@ function prendi11(){
 	navigator.camera.getPicture(Successo11, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 150,
+								targetWidth: 130,
 								targetHeight: 150
 								});
 }
@@ -2325,7 +2325,7 @@ function prendi12(){
 	navigator.camera.getPicture(Successo12, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 150,
+								targetWidth: 130,
 								targetHeight: 150
 								});
 }
@@ -4028,7 +4028,7 @@ function listacollection() {
 				  if (item.Modello=="Monete"){
 					$('#listacollezione').append('<br><a id="lcm'+ item.ID +'" href="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/plusW.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="visioneN">&nbsp;'+ item.ContaMonete +'&nbsp;</font><font class="arancio">' + item.Modello + '</font></td></tr></table></a>')
 				  
-				  $(document).on("touchend", "#lcm"+ item.ID +"", function(e){
+				  $(document).on("tap", "#lcm"+ item.ID +"", function(e){
 						vaimodello(item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					});
@@ -4038,7 +4038,7 @@ function listacollection() {
 				  else if (item.Modello=="Orologi"){
 					$('#listacollezione').append('<br><a id="lco'+ item.ID +'" href="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/plusW.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="visioneN">&nbsp;'+ item.ContaOrologi +'&nbsp;</font><font class="arancio">' + item.Modello + '</font></td></tr></table></a>')
 				  
-				  $(document).on("touchend", "#lco"+ item.ID +"", function(e){
+				  $(document).on("tap", "#lco"+ item.ID +"", function(e){
 								 vaimodello(item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
@@ -4048,7 +4048,7 @@ function listacollection() {
 				  else if (item.Modello=="Quadri"){
 					$('#listacollezione').append('<br><a id="lcq'+ item.ID +'" href="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/plusW.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="visioneN">&nbsp;'+ item.ContaQuadri +'&nbsp;</font><font class="arancio">' + item.Modello + '</font></td></tr></table></a>')
 				  
-				  $(document).on("touchend", "#lcq"+ item.ID +"", function(e){
+				  $(document).on("tap", "#lcq"+ item.ID +"", function(e){
 								 vaimodello(item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
@@ -4058,7 +4058,7 @@ function listacollection() {
 				  else{
 					$('#listacollezione').append('<br><a id="lca'+ item.ID +'" href="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella12"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/plusW.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.Nome +'</h3></td><td align="center" width="15%"><font class="visioneN">&nbsp;'+ item.ContaAltro +'&nbsp;</font><font class="arancio">' + item.Modello + '</font></td></tr></table></a>')
 				  
-				  $(document).on("touchend", "#lca"+ item.ID +"", function(e){
+				  $(document).on("tap", "#lca"+ item.ID +"", function(e){
 								 vaimodello(item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 								 });
@@ -4142,7 +4142,7 @@ function listaschede(modello,idmodello){
 				  $('#risultato2').append('<br><a id="ls6'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Nome + '('+ item.Valore +')</font></td></tr></table></a>');
 				  //$("#NomeCollez10").html("<font size='3'><b>" + item.Nome + "</b></font>"); <a href="#page6" onclick="javascript:loadmodello('+ cosa +','+ item.ID +')" data-transition="slide"><img src="img/plus.png" width="28px"><font size="3" color="#000">- ' + item.NomeCollezione + ' </font><font size="1" color="orange">' + item.Nome + '('+ item.Valore +')</font></a>
 				  
-				  $(document).on("touchend", "#ls6"+ item.ID +"", function(e){
+				  $(document).on("tap", "#ls6"+ item.ID +"", function(e){
 								 window.location.href = "#page6";
 								 loadmodello(cosa,item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
@@ -4154,7 +4154,7 @@ function listaschede(modello,idmodello){
 				  $('#risultato2').append('<br><a id="ls7'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Nome + '('+ item.Valore +')</font></td></tr></table></a>');
 				  //$("#NomeCollez10").html("<font size='3'><b>" + item.Nome + "</b></font>");
 				  
-				  $(document).on("touchend", "#ls7"+ item.ID +"", function(e){
+				  $(document).on("tap", "#ls7"+ item.ID +"", function(e){
 								 window.location.href = "#page7";
 								 loadmodello(cosa,item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
@@ -4166,7 +4166,7 @@ function listaschede(modello,idmodello){
 				  $('#risultato2').append('<br><a id="ls8'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="45%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="25%"><font class="arancio">' + item.Nome + '('+ item.Valore +')</font></td></tr></table></a>');
 				  //$("#NomeCollez10").html("<font size='3'><b>" + item.Nome + "</b></font>");
 				  
-				  $(document).on("touchend", "#ls8"+ item.ID +"", function(e){
+				  $(document).on("tap", "#ls8"+ item.ID +"", function(e){
 								 window.location.href = "#page8";
 								 loadmodello(cosa,item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
@@ -4178,7 +4178,7 @@ function listaschede(modello,idmodello){
 				  $('#risultato2').append('<br><a id="ls12'+ item.ID +'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="55%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">' + item.Nome + '('+ item.Valore +')</font></td></tr></table></a>');
 				  //$("#NomeCollez10").html("<font size='3'><b>" + item.Nome + "</b></font>");
 				  
-				  $(document).on("touchend", "#ls12"+ item.ID +"", function(e){
+				  $(document).on("tap", "#ls12"+ item.ID +"", function(e){
 								 window.location.href = "#page12";
 								 loadmodello(cosa,item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
