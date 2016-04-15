@@ -2140,8 +2140,8 @@ function prendi4(){
 	navigator.camera.getPicture(Successo4, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 200,
-								targetHeight: 200
+								targetWidth: 150,
+								targetHeight: 150
 								});
 }
 
@@ -2164,8 +2164,8 @@ function prendi5(){
 	navigator.camera.getPicture(Successo5, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 200,
-								targetHeight: 200
+								targetWidth: 150,
+								targetHeight: 150
 								});
 }
 
@@ -2187,13 +2187,13 @@ function prendi6(){
 	navigator.camera.getPicture(Successo6, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 200,
-								targetHeight: 200
+								targetWidth: 150,
+								targetHeight: 150
 								});
 }
 
 function Successo6(imageData) {
-			var angle = 0
+	var angle = 0
 	angle = (angle+90)%360;
 	
 	localStorage.setItem("Foto6", "data:image/png;base64," + imageData);
@@ -2210,8 +2210,8 @@ function prendi7(){
 	navigator.camera.getPicture(Successo7, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 200,
-								targetHeight: 200
+								targetWidth: 150,
+								targetHeight: 150
 								});
 }
 
@@ -2233,8 +2233,8 @@ function prendi8(){
 	navigator.camera.getPicture(Successo8, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 200,
-								targetHeight: 200
+								targetWidth: 150,
+								targetHeight: 150
 								});
 }
 
@@ -2257,8 +2257,8 @@ function prendi9(){
 	navigator.camera.getPicture(Successo9, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 200,
-								targetHeight: 200
+								targetWidth: 150,
+								targetHeight: 150
 								});
 }
 
@@ -2280,8 +2280,8 @@ function prendi10(){
 	navigator.camera.getPicture(Successo10, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 200,
-								targetHeight: 200
+								targetWidth: 150,
+								targetHeight: 150
 								});
 }
 
@@ -2303,8 +2303,8 @@ function prendi11(){
 	navigator.camera.getPicture(Successo11, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 200,
-								targetHeight: 200
+								targetWidth: 150,
+								targetHeight: 150
 								});
 }
 
@@ -2326,8 +2326,8 @@ function prendi12(){
 	navigator.camera.getPicture(Successo12, onFail, { quality: 30,
 								destinationType: Camera.DestinationType.DATA_URL,
 								encodingType: Camera.EncodingType.PNG,
-								targetWidth: 200,
-								targetHeight: 200
+								targetWidth: 150,
+								targetHeight: 150
 								});
 }
 
