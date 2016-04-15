@@ -1,4 +1,3 @@
-
 var app = {
     // Application Constructor
     initialize: function() {
@@ -2450,7 +2449,6 @@ function onSuccess(imageData) {
 		   $.each(result, function(i,item){
 				  
 				  if (item.Token == 1024){
-
 				  
 				  }
 			});
@@ -2461,7 +2459,6 @@ function onSuccess(imageData) {
 		   error: function(){
 		   $(".spinner").hide();
 		   
-
 		   },
 	dataType:"jsonp"});*/
 		
@@ -4303,7 +4300,6 @@ function salva() {
 			//OK
 			alert(result.result);
 		   
-
 		   }
 		   else{
 		    //alert("Non sei autorizzato");
@@ -4345,7 +4341,6 @@ function salva() {
 		   
 		   if (result.result==1){
 			alert(result.result);
-
 		   
 		   }
 		   else{
@@ -4440,7 +4435,6 @@ function salva() {
 					 var len = results.rows.length, i;
 					 
 					 for (i = 0; i < len; i++){
-
 					  
 					  $.ajax({
 					  type: "POST",
@@ -4477,10 +4471,8 @@ function salva() {
 					 
 		}, null);
 				   
-
 	});
 	
-
 	setTimeout (function(){
 		dlt()
 	}, 2000);
@@ -5816,7 +5808,6 @@ function getParameterByName(name) {
 						  results = regex.exec(location.search);
 						  return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 						  }
-
 
 
 
