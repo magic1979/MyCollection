@@ -1039,42 +1039,42 @@ function carica3(){
 	
 		$('#nomecollezione').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#nomecollezione", "1s");
+				myScroll3.scrollToElement("#nomecollezione", "1s");
 			}, 500);
 		});
 		$('#marca').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#marca", "1s");
+				myScroll3.scrollToElement("#marca", "1s");
 			}, 500);
 		});
 		$('#meccanismo').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#meccanismo", "1s");
+				myScroll3.scrollToElement("#meccanismo", "1s");
 			}, 500);
 		});
 		$('#materialecassa').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#materialecassa", "1s");
+				myScroll3.scrollToElement("#materialecassa", "1s");
 			}, 500);
 		});
 		$('#materialevetro').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#materialevetro", "1s");
+				myScroll3.scrollToElement("#materialevetro", "1s");
 			}, 500);
 		});
 		$('#materialecinturino').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#materialecinturino", "1s");
+				myScroll3.scrollToElement("#materialecinturino", "1s");
 			}, 500);
 		});
 		$('#prezzo').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#prezzo", "1s");
+				myScroll3.scrollToElement("#prezzo", "1s");
 			}, 500);
 		});
 			$('#tiraturaqp').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#tiraturaqp", "1s");
+				myScroll3.scrollToElement("#tiraturaqp", "1s");
 			}, 500);
 		});
 			
@@ -1108,66 +1108,66 @@ function carica4(){
 	
 		$('#titolo').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#titolo", "1s");
+				myScroll4.scrollToElement("#titolo", "1s");
 			}, 500);
 		});
 		$('#autore').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#autore", "1s");
+				myScroll4.scrollToElement("#autore", "1s");
 			}, 500);
 		});
 		
 		$('#quotazione').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#quotazione", "1s");
+				myScroll4.scrollToElement("#quotazione", "1s");
 			}, 500);
 		});
 		
 		$('#provenienza').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#provenienza", "1s");
+				myScroll4.scrollToElement("#provenienza", "1s");
 			}, 500);
 		});
 		
 		$('#iscrizione').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#iscrizione", "1s");
+				myScroll4.scrollToElement("#iscrizione", "1s");
 			}, 500);
 		});
 		
 		$('#firme').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#firme", "1s");
+				myScroll4.scrollToElement("#firme", "1s");
 			}, 500);
 		});
 		
 		$('#esposto').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#esposto", "1s");
+				myScroll4.scrollToElement("#esposto", "1s");
 			}, 500);
 		});
 		
 		$('#dove').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#dove", "1s");
+				myScroll4.scrollToElement("#dove", "1s");
 			}, 500);
 		});
 		
 		$('#linkautore').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#linkautore", "1s");
+				myScroll4.scrollToElement("#linkautore", "1s");
 			}, 500);
 		});
 		
 		$('#linkpubblicazine').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#linkpubblicazine", "1s");
+				myScroll4.scrollToElement("#linkpubblicazine", "1s");
 			}, 500);
 		});
 		
 		$('#dimensioni').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#dimensioni", "1s");
+				myScroll4.scrollToElement("#dimensioni", "1s");
 			}, 500);
 		});
 	
@@ -1202,37 +1202,37 @@ function carica6(){
 	
 		$('#marcaC').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#marcaC", "1s");
+				myScroll6.scrollToElement("#marcaC", "1s");
 			}, 500);
 		});
 		$('#meccanismoC').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#meccanismoC", "1s");
+				myScroll6.scrollToElement("#meccanismoC", "1s");
 			}, 500);
 		});
 		$('#materialecassaC').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#materialecassaC", "1s");
+				myScroll6.scrollToElement("#materialecassaC", "1s");
 			}, 500);
 		});
 		$('#materialevetroC').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#materialevetroC", "1s");
+				myScroll6.scrollToElement("#materialevetroC", "1s");
 			}, 500);
 		});
 		$('#materialecinturinoC').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#materialecinturinoC", "1s");
+				myScroll6.scrollToElement("#materialecinturinoC", "1s");
 			}, 500);
 		});
 		$('#prezzoC').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#prezzoC", "1s");
+				myScroll6.scrollToElement("#prezzoC", "1s");
 			}, 500);
 		});
 			$('#tiraturaqpC').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#tiraturaqpC", "1s");
+				myScroll6.scrollToElement("#tiraturaqpC", "1s");
 			}, 500);
 		});
 	
@@ -1253,65 +1253,65 @@ function carica7(){
 	
 		$('#valoreB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#valoreB", "1s");
+				myScroll7.scrollToElement("#valoreB", "1s");
 			}, 500);
 		});
 		$('#materialeB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#materialeB", "1s");
+				myScroll7.scrollToElement("#materialeB", "1s");
 			}, 500);
 		});
 		$('#descrizioneFB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#descrizioneFB", "1s");
+				myScroll7.scrollToElement("#descrizioneFB", "1s");
 			}, 500);
 		});
 		$('#descrizioneRB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#descrizioneRB", "1s");
+				myScroll7.scrollToElement("#descrizioneRB", "1s");
 			}, 500);
 		});
 		$('#descrizioneBB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#descrizioneBB", "1s");
+				myScroll7.scrollToElement("#descrizioneBB", "1s");
 			}, 500);
 		});
 		$('#raritaB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#raritaB", "1s");
+				myScroll7.scrollToElement("#raritaB", "1s");
 			}, 500);
 		});
 		$('#possedutaB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#possedutaB", "1s");
+				myScroll7.scrollToElement("#possedutaB", "1s");
 			}, 500);
 		});
 			$('#dimensioneB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#dimensioneB", "1s");
+				myScroll7.scrollToElement("#dimensioneB", "1s");
 			}, 500);
 		});
 			$('#statoconservazioneB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#statoconservazioneB", "1s");
+				myScroll7.scrollToElement("#statoconservazioneB", "1s");
 			}, 500);
 		});
 		
 		$('#valore2B').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#valore2B", "1s");
+				myScroll7.scrollToElement("#valore2B", "1s");
 			}, 500);
 		});
 		
 		$('#annoB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#annoB", "1s");
+				myScroll7.scrollToElement("#annoB", "1s");
 			}, 500);
 		});
 		
 		$('#tiraturaB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#tiraturaB", "1s");
+				myScroll7.scrollToElement("#tiraturaB", "1s");
 			}, 500);
 		});
 	
@@ -1333,61 +1333,61 @@ function carica8(){
 
 		$('#autoreD').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#autoreD", "1s");
+				myScroll8.scrollToElement("#autoreD", "1s");
 			}, 500);
 		});
 		
 		$('#quotazioneD').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#quotazioneD", "1s");
+				myScroll8.scrollToElement("#quotazioneD", "1s");
 			}, 500);
 		});
 		
 		$('#provenienzaD').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#provenienzaD", "1s");
+				myScroll8.scrollToElement("#provenienzaD", "1s");
 			}, 500);
 		});
 		
 		$('#iscrizioneD').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#iscrizioneD", "1s");
+				myScroll8.scrollToElement("#iscrizioneD", "1s");
 			}, 500);
 		});
 		
 		$('#firmeD').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#firmeD", "1s");
+				myScroll8.scrollToElement("#firmeD", "1s");
 			}, 500);
 		});
 		
 		$('#espostoD').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#espostoD", "1s");
+				myScroll8.scrollToElement("#espostoD", "1s");
 			}, 500);
 		});
 		
 		$('#doveD').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#doveD", "1s");
+				myScroll8.scrollToElement("#doveD", "1s");
 			}, 500);
 		});
 		
 		$('#linkautoreD').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#linkautoreD", "1s");
+				myScroll8.scrollToElement("#linkautoreD", "1s");
 			}, 500);
 		});
 		
 		$('#linkpubblicazineD').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#linkpubblicazineD", "1s");
+				myScroll8.scrollToElement("#linkpubblicazineD", "1s");
 			}, 500);
 		});
 		
 		$('#dimensioneD').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#dimensioneD", "1s");
+				myScroll8.scrollToElement("#dimensioneD", "1s");
 			}, 500);
 		});
 	
@@ -1439,71 +1439,71 @@ function carica11(){
 	
 		$('#valoreAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#valoreAA", "1s");
+				myScroll11.scrollToElement("#valoreAA", "1s");
 			}, 500);
 		});
 		$('#provenienzaAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#provenienzaAA", "1s");
+				myScroll11.scrollToElement("#provenienzaAA", "1s");
 			}, 500);
 		});
 		$('#materialeAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#materialeAA", "1s");
+				myScroll11.scrollToElement("#materialeAA", "1s");
 			}, 500);
 		});
 		$('#descrizioneFAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#descrizioneFAA", "1s");
+				myScroll11.scrollToElement("#descrizioneFAA", "1s");
 			}, 500);
 		});
 		$('#descrizioneRAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#descrizioneRAA", "1s");
+				myScroll11.scrollToElement("#descrizioneRAA", "1s");
 			}, 500);
 		});
 		$('#descrizioneBAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#descrizioneBAA", "1s");
+				myScroll11.scrollToElement("#descrizioneBAA", "1s");
 			}, 500);
 		});
 		$('#tiraturaAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#tiraturaAA", "1s");
+				myScroll11.scrollToElement("#tiraturaAA", "1s");
 			}, 500);
 		});
 			$('#raritaAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#raritaAA", "1s");
+				myScroll11.scrollToElement("#raritaAA", "1s");
 			}, 500);
 		});
 			$('#possedutaAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#possedutaAA", "1s");
+				myScroll11.scrollToElement("#possedutaAA", "1s");
 			}, 500);
 		});
 		
 		$('#dimensioneAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#dimensioneAA", "1s");
+				myScroll11.scrollToElement("#dimensioneAA", "1s");
 			}, 500);
 		});
 		
 		$('#statoconservazioneAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#statoconservazioneAA", "1s");
+				myScroll11.scrollToElement("#statoconservazioneAA", "1s");
 			}, 500);
 		});
 		
 		$('#valore2AA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#valore2AA", "1s");
+				myScroll11.scrollToElement("#valore2AA", "1s");
 			}, 500);
 		});
 		
 		$('#annoAA').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#annoAA", "1s");
+				myScroll11.scrollToElement("#annoAA", "1s");
 			}, 500);
 		});
 		
@@ -1511,7 +1511,7 @@ function carica11(){
 		
 		$('#tiraturaB').focus(function(){
 			setTimeout (function(){
-				myScroll2.scrollToElement("#tiraturaB", "1s");
+				myScroll11.scrollToElement("#tiraturaB", "1s");
 			}, 500);
 		});
 	
@@ -2147,11 +2147,15 @@ function prendi4(){
 
 
 function Successo4(imageData) {
+	var angle = 0
+	angle = (angle+90)%360;
 	
 	localStorage.setItem("Foto4", "data:image/png;base64," + imageData);
 	
 	var image004 = document.getElementById('myImageVol4');
 	image004.src = localStorage.getItem("Foto4");
+	
+	image004.className = "rotate"+angle;
 	
 }
 
@@ -2166,11 +2170,15 @@ function prendi5(){
 }
 
 function Successo5(imageData) {
+		var angle = 0
+	angle = (angle+90)%360;
 	
 	localStorage.setItem("Foto5", "data:image/png;base64," + imageData);
 	
 	var image005 = document.getElementById('myImageVol5');
 	image005.src = localStorage.getItem("Foto5");
+	
+	image005.className = "rotate"+angle;
 	
 }
 
@@ -2185,11 +2193,15 @@ function prendi6(){
 }
 
 function Successo6(imageData) {
+			var angle = 0
+	angle = (angle+90)%360;
 	
 	localStorage.setItem("Foto6", "data:image/png;base64," + imageData);
 	
 	var image006 = document.getElementById('myImageVol6');
 	image006.src = localStorage.getItem("Foto6");
+	
+	image006.className = "rotate"+angle;
 	
 }
 
@@ -2204,11 +2216,15 @@ function prendi7(){
 }
 
 function Successo7(imageData) {
+			var angle = 0
+	angle = (angle+90)%360;
 	
 	localStorage.setItem("Foto7", "data:image/png;base64," + imageData);
 	
 	var image007 = document.getElementById('myImageVol7');
 	image007.src = localStorage.getItem("Foto7");
+	
+	image007.className = "rotate"+angle;
 	
 }
 
@@ -2224,10 +2240,15 @@ function prendi8(){
 
 function Successo8(imageData) {
 	
+	var angle = 0
+	angle = (angle+90)%360;
+	
 	localStorage.setItem("Foto8", "data:image/png;base64," + imageData);
 	
 	var image008 = document.getElementById('myImageVol8');
 	image008.src = localStorage.getItem("Foto8");
+	
+	image008.className = "rotate"+angle;
 	
 }
 
@@ -2242,11 +2263,15 @@ function prendi9(){
 }
 
 function Successo9(imageData) {
+		var angle = 0
+	angle = (angle+90)%360;
 	
 	localStorage.setItem("Foto9", "data:image/png;base64," + imageData);
 	
 	var image009 = document.getElementById('myImageVol9');
 	image009.src = localStorage.getItem("Foto9");
+	
+	image009.className = "rotate"+angle;
 	
 }
 
@@ -2261,11 +2286,15 @@ function prendi10(){
 }
 
 function Successo10(imageData) {
+		var angle = 0
+	angle = (angle+90)%360;
 	
 	localStorage.setItem("Foto10", "data:image/png;base64," + imageData);
 	
 	var image0010 = document.getElementById('myImageVol10');
 	image0010.src = localStorage.getItem("Foto10");
+	
+	image0010.className = "rotate"+angle;
 	
 }
 
@@ -2280,11 +2309,15 @@ function prendi11(){
 }
 
 function Successo11(imageData) {
+			var angle = 0
+	angle = (angle+90)%360;
 	
 	localStorage.setItem("Foto11", "data:image/png;base64," + imageData);
 	
 	var image0011 = document.getElementById('myImageVol11');
 	image0011.src = localStorage.getItem("Foto11");
+	
+	image0011.className = "rotate"+angle;
 	
 }
 
@@ -2299,11 +2332,15 @@ function prendi12(){
 }
 
 function Successo12(imageData) {
+			var angle = 0
+	angle = (angle+90)%360;
 	
 	localStorage.setItem("Foto12", "data:image/png;base64," + imageData);
 	
 	var image0012 = document.getElementById('myImageVol12');
 	image0012.src = localStorage.getItem("Foto12");
+	
+	image0012.className = "rotate"+angle;
 	
 }
 
@@ -4723,7 +4760,7 @@ function menu(){
 				  
 				  $(document).on("touchend", "#menuo"+ item.ID +"", function(e){
 						window.location.href = "#page10";
-						mieschede(cosa,item.ID);
+						mieschede(1,item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					});
 				  }
@@ -4733,7 +4770,7 @@ function menu(){
 				  
 				  $(document).on("touchend", "#menum"+ item.ID +"", function(e){
 					window.location.href = "#page10";
-					mieschede(cosa,item.ID);
+					mieschede(2,item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 				  });
 				  
@@ -4744,7 +4781,7 @@ function menu(){
 				  
 				  $(document).on("touchend", "#menuq"+ item.ID +"", function(e){
 						window.location.href = "#page10";
-						mieschede(cosa,item.ID);
+						mieschede(3,item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					});
 				  }
@@ -4754,7 +4791,7 @@ function menu(){
 				  
 				  $(document).on("touchend", "#menua"+ item.ID +"", function(e){
 						window.location.href = "#page10";
-						mieschede(cosa,item.ID);
+						mieschede(4,item.ID);
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 					});
 				  }
@@ -4854,7 +4891,7 @@ function mieschede(modello,idmodello){
 				  cosa=1
 				  $('#movie-list2').append('<br><a id="ms6'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
-				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli6"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
+				  $("#NomeCollez10").html("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli6"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  
 				  $(document).on("touchend", "#ms6"+ item.ID +"", function(e){
 					 window.location.href = "#page6";
@@ -4867,13 +4904,13 @@ function mieschede(modello,idmodello){
 								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
 				   });
 				  
-				  
+
 				  }
 				  else if(item.Modello=="Monete"){
 				  cosa=2
 				  $('#movie-list2').append('<br><a id="ms7'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
-				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli7"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
+				  $("#NomeCollez10").html("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli7"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  
 				  $(document).on("touchend", "#ms7"+ item.ID +"", function(e){
 								 window.location.href = "#page7";
@@ -4891,7 +4928,7 @@ function mieschede(modello,idmodello){
 				  cosa=3
 				  $('#movie-list2').append('<br><a id="ms8'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
-				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli8"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
+				  $("#NomeCollez10").html("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli8"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  
 				  $(document).on("touchend", "#ms8"+ item.ID +"", function(e){
 								 window.location.href = "#page8";
@@ -4900,16 +4937,16 @@ function mieschede(modello,idmodello){
 								 });
 				  
 				  $(document).on("touchend", "#eli8"+ item.ID +"", function(e){
-								 eliminacollezione(cosa,idmodello)
-								 if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
-								 });
+						eliminacollezione(cosa,idmodello)
+						if ($.browser.iphone || $.browser.ipad) $(this).trigger('click');
+					});
 				  
 				  }
 				  else{
 				  cosa=4
 				  $('#movie-list2').append('<br><a id="ms12'+item.ID+'" href="#" onclick="#" data-transition="slide"><table bgcolor="#fff" width="100%" class="tabella11"><tr><td width="30%">&nbsp;&nbsp;&nbsp;<img src="img/Best.png" height="30" rel="external"></td><td width="40%"><h3 class="visioneN">&nbsp;'+ item.NomeCollezione +'</h3></td><td align="center" width="15%"><font class="arancio">('+ item.Valore +')</font></td><td align="center" width="15%"><img src="http://gtechplay.com/public/mycollection/'+ item.NomeFoto1 +'.png" width="20" class="circolare22"></td></tr></table></a>');
 				  
-				  $("#NomeCollez10").append("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli12"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
+				  $("#NomeCollez10").html("<font size='4'><b>" + item.Nome + "</b></font><br><a id='eli12"+ item.ID +"' href='#' rel='external'><img src='img/minus.png' width='12px'>&nbsp;<font size='1' color='#9f1e24'>Elimina</font></a>");
 				  
 				  $(document).on("touchend", "#ms12"+ item.ID +"", function(e){
 								 window.location.href = "#page12";
